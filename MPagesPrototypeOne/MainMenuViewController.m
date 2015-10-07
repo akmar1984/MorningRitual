@@ -8,36 +8,45 @@
 
 #import "MainMenuViewController.h"
 #import "MPInputViewController.h"
-@interface MainMenuViewController ()
+#import "VBFPopFlatButton.h"
 
+@interface MainMenuViewController ()
+@property (nonatomic)VBFPopFlatButton *flatRoundedButton;
 @end
 @implementation MainMenuViewController
 -(void)viewWillAppear:(BOOL)animated{
     
     [super viewWillAppear:animated];
 
+    [self setAnimatedButton];
+    
+}
+-(void)setAnimatedButton{
+    CGPoint middleScreen = CGPointMake(roundf(self.view.bounds.size.width - 50)/2.0, roundf(self.view.bounds.size.height -50)/2.0);
+    self.flatRoundedButton = [[VBFPopFlatButton alloc]initWithFrame:CGRectMake(middleScreen.x, middleScreen.y, 50, 50) buttonType:buttonAddType buttonStyle:buttonRoundedStyle animateToInitialState:YES];
+    self.flatRoundedButton.backgroundColor = [UIColor whiteColor];
+    self.flatRoundedButton.tintColor = [UIColor blueColor];
+    [self.flatRoundedButton addTarget:self
+                            action:@selector(tappedButton:)
+                     forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:self.flatRoundedButton];
+    
+    
     
 }
 
--(void)setupButton{
+-(void)delaySegue{
+    [self performSegueWithIdentifier:@"MPController" sender:nil];
     
-    UIButton *buttonFont = [UIButton buttonWithType:UIButtonTypeCustom];
-    buttonFont.frame = CGRectMake(100, 100, 50, 50);
-    
-    [buttonFont setTitle:@"Image" forState:UIControlStateNormal];
-    buttonFont.backgroundColor = [UIColor whiteColor];
-    buttonFont.alpha = 0.1;
-    [buttonFont addTarget:self action:@selector(tappedButton:) forControlEvents:UIControlEventTouchUpInside];
-    
-    buttonFont.layer.cornerRadius = buttonFont.bounds.size.width/2;
-    //buttonFont.layer.borderWidth = 2.0f;
-    buttonFont.clipsToBounds = YES;
-    [self.view addSubview:buttonFont];
 }
-
 -(IBAction)tappedButton:(id)sender{
     
-        [self performSegueWithIdentifier:@"MPController" sender:sender];
+    [self.flatRoundedButton animateToType:buttonOkType];
+    
+
+    [self performSelector:@selector(delaySegue) withObject:nil afterDelay:0.6];
+   
 
 }
 @end
