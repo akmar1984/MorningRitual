@@ -9,17 +9,12 @@
 #import "MainMenuViewController.h"
 #import "MPInputViewController.h"
 @interface MainMenuViewController ()
-//@property (weak, nonatomic) IBOutlet UIImageView *mainMenuImageView;
 
 @end
 @implementation MainMenuViewController
 -(void)viewWillAppear:(BOOL)animated{
     
     [super viewWillAppear:animated];
-//    UIImage *image = [UIImage imageNamed:@"bkgMP"];
-//    UIImageView *imageView = [[UIImageView alloc]initWithImage:image];
-//
-//    [self.view addSubview:imageView];
 
     
 }

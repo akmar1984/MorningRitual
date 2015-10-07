@@ -14,15 +14,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>VBFPopFlatButton.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>pop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>A245295D9AA4C0C8C7FC57170C51EDD9</key>
+		<key>47C800E42623009B7192B025B3DD25A1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CB593995651BAADF7A05572EDFE7652D</key>
+		<key>9C2216F9F97112EA6E7E00FA6082C297</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6E6BFD84AA377DAD17F6167D6F96293</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F280129CF6762B7EAE8D202AA389F9AC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
