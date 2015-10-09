@@ -4,6 +4,7 @@
 target 'MPagesPrototypeOne' do
 pod ‘FontAwesomeKit’
 pod 'VBFPopFlatButton’
+
 end
 
 target 'MPagesPrototypeOneTests' do

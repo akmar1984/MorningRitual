@@ -10,6 +10,8 @@
 #import "MPInputViewController.h"
 #import "VBFPopFlatButton.h"
 
+
+
 @interface MainMenuViewController ()
 @property (nonatomic)VBFPopFlatButton *flatRoundedButton;
 @end
@@ -24,8 +26,9 @@
 -(void)setAnimatedButton{
     CGPoint middleScreen = CGPointMake(roundf(self.view.bounds.size.width - 50)/2.0, roundf(self.view.bounds.size.height -50)/2.0);
     self.flatRoundedButton = [[VBFPopFlatButton alloc]initWithFrame:CGRectMake(middleScreen.x, middleScreen.y, 50, 50) buttonType:buttonAddType buttonStyle:buttonRoundedStyle animateToInitialState:YES];
+    
     self.flatRoundedButton.backgroundColor = [UIColor whiteColor];
-    self.flatRoundedButton.tintColor = [UIColor blueColor];
+    
     [self.flatRoundedButton addTarget:self
                             action:@selector(tappedButton:)
                      forControlEvents:UIControlEventTouchUpInside];
