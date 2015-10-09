@@ -4,12 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BFPaperButton.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FontAwesomeKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-MPagesPrototypeOne.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UIColor+BFPaperColors.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,7 +37,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>16E2A293EEB940FF485A0A505B4BC38B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>47C800E42623009B7192B025B3DD25A1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69A5CFCABCF5E2E2ECE9E3A3888F4E3D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -37,12 +57,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A305C03B179BB3BA6F76EAAD4F0738AA</key>
+		<key>ADFDBE71B07207D66778AAE860C35FC4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B6E6BFD84AA377DAD17F6167D6F96293</key>
+		<key>F43885B233F4B9CCC43E1736A5087DD7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
