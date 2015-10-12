@@ -27,7 +27,7 @@
 -(void)viewWillAppear:(BOOL)animated{
     
     [super viewWillAppear:animated];
-
+    self.titleImageView.layer.zPosition = 10;
     [self setTheVideo];
     
     [self setAnimatedButton];
@@ -45,7 +45,7 @@
     self.view.backgroundColor = [UIColor clearColor];
     
     _playerView = [[UIView alloc]initWithFrame:self.view.bounds];
-    _playerView.backgroundColor = [UIColor redColor];
+    _playerView.backgroundColor = [UIColor clearColor];
     
     _playerLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
     [self.view insertSubview:_playerView atIndex:1];
@@ -55,13 +55,13 @@
     [_playerLayer.player play];
     
     _playerLayer.frame = _playerView.layer.bounds;
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loopVideo) name:AVPlayerItemDidPlayToEndTimeNotification object:_playerLayer.player];
+    
     
 }
 
 -(void)viewDidLoad{
 
-
+[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loopVideo) name:AVPlayerItemDidPlayToEndTimeNotification object:_playerLayer.player];
     
     
 }
@@ -103,10 +103,7 @@
 }
 -(IBAction)tappedButton:(id)sender{
     
-   
-    [_playerLayer.player play];
-
-    //[self performSelector:@selector(delaySegue) withObject:nil afterDelay:0.3];
+   [self performSelector:@selector(delaySegue) withObject:nil afterDelay:0.3];
    
 
 }
