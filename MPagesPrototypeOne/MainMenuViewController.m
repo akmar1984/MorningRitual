@@ -51,10 +51,12 @@
     [self.view insertSubview:_playerView atIndex:1];
     [_playerView.layer addSublayer:_playerLayer];
     _playerLayer.player.actionAtItemEnd = AVPlayerActionAtItemEndNone;
+   
     [_playerLayer.player play];
-    _playerLayer.frame = _playerView.layer.bounds;
     
+    _playerLayer.frame = _playerView.layer.bounds;
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loopVideo) name:AVPlayerItemDidPlayToEndTimeNotification object:_playerLayer.player];
+    
 }
 
 -(void)viewDidLoad{
@@ -65,6 +67,7 @@
 }
 
 - (void)loopVideo {
+    [_playerLayer.player seekToTime:kCMTimeZero];
     [_playerLayer.player play];
 
 }
