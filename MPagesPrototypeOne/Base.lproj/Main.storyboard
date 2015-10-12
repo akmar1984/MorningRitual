@@ -33,6 +33,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="titleImageView" destination="z7u-Og-y1L" id="4Tc-Es-maW"/>
                         <segue destination="w5c-0t-s6d" kind="presentation" identifier="MPController" id="kpF-vD-nZG"/>
                     </connections>
                 </viewController>

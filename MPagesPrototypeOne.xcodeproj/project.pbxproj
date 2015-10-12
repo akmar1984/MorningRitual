@@ -15,6 +15,8 @@
 		600F966A1B69667D0051B9F9 /* MPInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600F96691B69667D0051B9F9 /* MPInputViewController.m */; };
 		601824981BB041460001ED0F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601824971BB041460001ED0F /* CoreText.framework */; };
 		602031641BB19D020091AF4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602031631BB19D020091AF4E /* Images.xcassets */; };
+		6024756F1BC9612100DB3FD7 /* flower2.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 6024756E1BC9605100DB3FD7 /* flower2.m4v */; };
+		608A6CE41BC805CA00E9B211 /* flower.mov in Resources */ = {isa = PBXBuildFile; fileRef = 608A6CE31BC805CA00E9B211 /* flower.mov */; settings = {ASSET_TAGS = (); }; };
 		60E50C0C1BB07B5F00A472FF /* HudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E50C0B1BB07B5F00A472FF /* HudView.m */; };
 		60FA64561B6E6DDD00BAC045 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FA64551B6E6DDD00BAC045 /* MainMenuViewController.m */; };
 		909B9DA1D8C1F00AB149E6A9 /* libPods-MPagesPrototypeOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F753C8F539548B1A87236A70 /* libPods-MPagesPrototypeOne.a */; };
@@ -46,6 +48,8 @@
 		600F96691B69667D0051B9F9 /* MPInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPInputViewController.m; sourceTree = "<group>"; };
 		601824971BB041460001ED0F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		602031631BB19D020091AF4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6024756E1BC9605100DB3FD7 /* flower2.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = flower2.m4v; sourceTree = "<group>"; };
+		608A6CE31BC805CA00E9B211 /* flower.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = flower.mov; sourceTree = "<group>"; };
 		60E50C0A1BB07B5F00A472FF /* HudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudView.h; sourceTree = "<group>"; };
 		60E50C0B1BB07B5F00A472FF /* HudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudView.m; sourceTree = "<group>"; };
 		60FA64541B6E6DDD00BAC045 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 		600F96411B6966320051B9F9 /* MPagesPrototypeOne */ = {
 			isa = PBXGroup;
 			children = (
+				608A6CE31BC805CA00E9B211 /* flower.mov */,
+				6024756E1BC9605100DB3FD7 /* flower2.m4v */,
 				600F96461B6966320051B9F9 /* AppDelegate.h */,
 				600F96471B6966320051B9F9 /* AppDelegate.m */,
 				602031631BB19D020091AF4E /* Images.xcassets */,
@@ -239,7 +245,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6024756F1BC9612100DB3FD7 /* flower2.m4v in Resources */,
 				602031641BB19D020091AF4E /* Images.xcassets in Resources */,
+				608A6CE41BC805CA00E9B211 /* flower.mov in Resources */,
 				600F964E1B6966330051B9F9 /* Main.storyboard in Resources */,
 				600F96531B6966330051B9F9 /* LaunchScreen.xib in Resources */,
 			);
