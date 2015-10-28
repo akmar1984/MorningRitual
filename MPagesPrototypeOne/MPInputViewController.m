@@ -7,7 +7,6 @@
 //
 
 #import "MPInputViewController.h"
-
 #import "FontAwesomeKit.h"
 #import "HudView.h"
 
@@ -17,6 +16,9 @@ static const CGFloat buttonOffset = 60;
 @interface MPInputViewController () <UITextViewDelegate>
 @property (nonatomic) UITextView *textView;
 @property (nonatomic) NSInteger counter;
+
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *refreshButton;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *exitButton;
 
 @end
 
@@ -58,6 +60,7 @@ static const CGFloat buttonOffset = 60;
     [super viewWillAppear:animated];
     self.view.backgroundColor = [UIColor whiteColor];
     [self setupTextView];
+    
    
     
 }
@@ -69,6 +72,8 @@ static const CGFloat buttonOffset = 60;
 -(void)viewDidLoad{
     
     [super viewDidLoad];
+   
+    
  
     
 }
@@ -95,7 +100,7 @@ static const CGFloat buttonOffset = 60;
     if (self.counter >= 6) {
         _pageImage03.hidden = NO;
         [HudView hudInView:self.navigationController.view animated:YES];
-        [self performSelector:@selector(closeScreen:) withObject:self afterDelay:1.6];
+        [self performSelector:@selector(closeScreen:) withObject:self afterDelay:5]; //default 1.6
     }else{
         _pageImage03.hidden = YES;
     }
@@ -111,7 +116,7 @@ static const CGFloat buttonOffset = 60;
    
      
      FAKFontAwesome *fontIcon = [FAKFontAwesome fontIconWithSize:20];
-    [fontIcon addAttribute:NSForegroundColorAttributeName value:[UIColor whiteColor]];
+    [fontIcon addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithRed:188.0f/255.0f green:77.0f/255.0f blue:77.0f/255.0f alpha:1.0]];
      [buttonFont setBackgroundImage:[fontIcon imageWithSize:CGSizeMake(30,30)] forState:UIControlStateNormal];
     buttonFont.backgroundColor = [UIColor clearColor];
     buttonFont.alpha = 0.9;
@@ -122,7 +127,7 @@ static const CGFloat buttonOffset = 60;
     buttonFont2.frame = CGRectMake(buttonOffset, 0, buttonWidth, buttonHeight);
    
     FAKFontAwesome *boldIcon = [FAKFontAwesome boldIconWithSize:20];
-    [boldIcon addAttribute:NSForegroundColorAttributeName value:[UIColor blueColor]];
+    [boldIcon addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithRed:188.0f/255.0f green:77.0f/255.0f blue:77.0f/255.0f alpha:1.0]];
     [buttonFont2 setBackgroundImage:[boldIcon imageWithSize:CGSizeMake(30,30)] forState:UIControlStateNormal];
    
     buttonFont2.alpha = 0.9;
@@ -134,7 +139,7 @@ static const CGFloat buttonOffset = 60;
     
     FAKFontAwesome *starIcon = [FAKFontAwesome fileTextOIconWithSize:20];
 
-    [starIcon addAttribute:NSForegroundColorAttributeName value:[UIColor yellowColor]];
+    [starIcon addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithRed:188.0f/255.0f green:77.0f/255.0f blue:77.0f/255.0f alpha:1.0]]; //jasny bordo
     UIImage *pageIndicator = [starIcon imageWithSize:CGSizeMake(25, 25)];
                               
     _pageImage01 =[[ UIImageView alloc]initWithImage:pageIndicator];
@@ -240,19 +245,32 @@ static const CGFloat buttonOffset = 60;
     return YES;
 }
 
+-(void)resetPageIndicator{
+    
+    self.counter = 0;
+    _pageImage01.hidden = YES;
+    _pageImage02.hidden = YES;
+    _pageImage03.hidden = YES;
+}
+- (IBAction)refreshButton:(id)sender {
+    
+    self.textView.text = @"";
+    [self resetPageIndicator];
+}
 
 -(void)setupTextView{
     
     self.textView = [[UITextView alloc]initWithFrame:CGRectMake(0 , 0, self.view.bounds.size.width , self.view.bounds.size.height)];
     self.textView.alpha = 1.0;
-    self.textView.backgroundColor = [UIColor blackColor];
+    self.textView.backgroundColor = [UIColor whiteColor];
     self.textView.font = [UIFont fontWithName:@"Futura-Medium" size:20];
-    self.textView.textColor = [UIColor whiteColor];
+    self.textView.textColor = [UIColor colorWithRed:12.0f/255.0f green:52.0f/255.0f blue:61.0f/255.0f alpha:1.0];
      self.textView.delegate = self;
     self.textView.autocorrectionType = UITextAutocorrectionTypeNo;
     
-    [self.textView setContentOffset:CGPointMake(0, -220)];
+    [self.textView setContentOffset:CGPointMake(0, 0)];
     [self.view addSubview:self.textView];
+    [self.textView becomeFirstResponder];
     
     
 

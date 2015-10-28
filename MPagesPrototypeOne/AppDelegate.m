@@ -27,6 +27,9 @@
     
     [[UINavigationBar appearance]setBarTintColor:[UIColor blackColor]];
     [[UINavigationBar appearance]setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],}];
+    
+    [[UIBarButtonItem appearance]setTintColor:[UIColor colorWithRed:241.0f/255.0f green:194.0f/255.0f blue:50.0f/255.0f alpha:1.0]];
+   
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
