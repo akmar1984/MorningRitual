@@ -14,6 +14,7 @@
 		600F965F1B6966330051B9F9 /* MPagesPrototypeOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 600F965E1B6966330051B9F9 /* MPagesPrototypeOneTests.m */; };
 		600F966A1B69667D0051B9F9 /* MPInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600F96691B69667D0051B9F9 /* MPInputViewController.m */; };
 		601824981BB041460001ED0F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601824971BB041460001ED0F /* CoreText.framework */; };
+		601E7BF11BE0FFF10092EE49 /* Snoler.mov in Resources */ = {isa = PBXBuildFile; fileRef = 601E7BF01BE0FFF10092EE49 /* Snoler.mov */; };
 		602031641BB19D020091AF4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602031631BB19D020091AF4E /* Images.xcassets */; };
 		60E50C0C1BB07B5F00A472FF /* HudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E50C0B1BB07B5F00A472FF /* HudView.m */; };
 		60FA64561B6E6DDD00BAC045 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FA64551B6E6DDD00BAC045 /* MainMenuViewController.m */; };
@@ -45,6 +46,7 @@
 		600F96681B69667D0051B9F9 /* MPInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPInputViewController.h; sourceTree = "<group>"; };
 		600F96691B69667D0051B9F9 /* MPInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPInputViewController.m; sourceTree = "<group>"; };
 		601824971BB041460001ED0F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		601E7BF01BE0FFF10092EE49 /* Snoler.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Snoler.mov; sourceTree = "<group>"; };
 		602031631BB19D020091AF4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		60E50C0A1BB07B5F00A472FF /* HudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudView.h; sourceTree = "<group>"; };
 		60E50C0B1BB07B5F00A472FF /* HudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudView.m; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				600F96461B6966320051B9F9 /* AppDelegate.h */,
 				600F96471B6966320051B9F9 /* AppDelegate.m */,
+				601E7BF01BE0FFF10092EE49 /* Snoler.mov */,
 				602031631BB19D020091AF4E /* Images.xcassets */,
 				600F964C1B6966330051B9F9 /* Main.storyboard */,
 				60FA64541B6E6DDD00BAC045 /* MainMenuViewController.h */,
@@ -203,7 +206,7 @@
 		600F96371B6966320051B9F9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = CodeImagination;
 				TargetAttributes = {
 					600F963E1B6966320051B9F9 = {
@@ -240,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				602031641BB19D020091AF4E /* Images.xcassets in Resources */,
+				601E7BF11BE0FFF10092EE49 /* Snoler.mov in Resources */,
 				600F964E1B6966330051B9F9 /* Main.storyboard in Resources */,
 				600F96531B6966330051B9F9 /* LaunchScreen.xib in Resources */,
 			);
@@ -359,6 +363,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -423,8 +428,11 @@
 			baseConfigurationReference = 2123D386A6FD669CC6C2D7AF /* Pods-MPagesPrototypeOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MPagesPrototypeOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeimagination.www.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -435,8 +443,11 @@
 			baseConfigurationReference = 87CDC518C6912D6CF4522F80 /* Pods-MPagesPrototypeOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MPagesPrototypeOne/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeimagination.www.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,6 +467,7 @@
 				);
 				INFOPLIST_FILE = MPagesPrototypeOneTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeimagination.www.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPagesPrototypeOne.app/MPagesPrototypeOne";
 			};
@@ -471,6 +483,7 @@
 				);
 				INFOPLIST_FILE = MPagesPrototypeOneTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeimagination.www.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MPagesPrototypeOne.app/MPagesPrototypeOne";
 			};

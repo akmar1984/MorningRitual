@@ -1,4 +1,6 @@
 PODS:
+  - BFPaperButton (2.0.18):
+    - UIColor+BFPaperColors
   - FontAwesomeKit (2.2.0):
     - FontAwesomeKit/Core (= 2.2.0)
     - FontAwesomeKit/FontAwesome (= 2.2.0)
@@ -14,11 +16,21 @@ PODS:
     - FontAwesomeKit/Core
   - FontAwesomeKit/Zocial (2.2.0):
     - FontAwesomeKit/Core
+  - pop (1.0.8)
+  - UIColor+BFPaperColors (1.7.1)
+  - VBFPopFlatButton (0.0.6):
+    - pop
 
 DEPENDENCIES:
+  - BFPaperButton
   - FontAwesomeKit
+  - VBFPopFlatButton
 
 SPEC CHECKSUMS:
+  BFPaperButton: 16b3ec9c2964d24f89f623a4113321d3f003ed60
   FontAwesomeKit: 025fd4dd1017fe4e3f8d47b03e024deedbb33cd4
+  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
+  UIColor+BFPaperColors: b1efa4320e2f56c4b14f73232faf967ba0e5b4a2
+  VBFPopFlatButton: 782344da63f104c279a857d806e065117a7e1196
 
 COCOAPODS: 0.38.2

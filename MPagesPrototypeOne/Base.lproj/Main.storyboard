@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Main Menu View Controller-->
@@ -16,10 +17,23 @@
                     <view key="view" contentMode="scaleToFill" id="LhA-et-wdZ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mainTitleTransparent" translatesAutoresizingMaskIntoConstraints="NO" id="z7u-Og-y1L">
+                                <rect key="frame" x="114" y="20" width="400" height="400"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="z7u-Og-y1L" firstAttribute="top" secondItem="ZJw-3g-BxV" secondAttribute="bottom" id="3TA-CW-Q2V"/>
+                            <constraint firstItem="i5F-EE-t0B" firstAttribute="top" secondItem="z7u-Og-y1L" secondAttribute="bottom" constant="180" id="M5A-pP-caz"/>
+                            <constraint firstItem="z7u-Og-y1L" firstAttribute="leading" secondItem="LhA-et-wdZ" secondAttribute="leadingMargin" constant="94" id="ZPa-Xq-8LF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="z7u-Og-y1L" secondAttribute="trailing" constant="66" id="xki-6j-mFe"/>
+                        </constraints>
                     </view>
                     <connections>
+                        <outlet property="titleImageView" destination="z7u-Og-y1L" id="4Tc-Es-maW"/>
                         <segue destination="w5c-0t-s6d" kind="presentation" identifier="MPController" id="kpF-vD-nZG"/>
                     </connections>
                 </viewController>
@@ -78,4 +92,7 @@
             <point key="canvasLocation" x="1447.5" y="435.21126760563379"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="mainTitleTransparent" width="200" height="200"/>
+    </resources>
 </document>

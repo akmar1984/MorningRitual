@@ -4,12 +4,32 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BFPaperButton.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>FontAwesomeKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-MPagesPrototypeOne.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UIColor+BFPaperColors.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>VBFPopFlatButton.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>pop.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,17 +57,25 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+<<<<<<< HEAD
 		<key>A245295D9AA4C0C8C7FC57170C51EDD9</key>
+=======
+		<key>ADFDBE71B07207D66778AAE860C35FC4</key>
+>>>>>>> animated_buttons_feature
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+<<<<<<< HEAD
 		<key>ADFDBE71B07207D66778AAE860C35FC4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>CB593995651BAADF7A05572EDFE7652D</key>
+=======
+		<key>F43885B233F4B9CCC43E1736A5087DD7</key>
+>>>>>>> animated_buttons_feature
 		<dict>
 			<key>primary</key>
 			<true/>
