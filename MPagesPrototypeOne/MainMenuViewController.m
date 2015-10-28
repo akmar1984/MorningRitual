@@ -13,11 +13,11 @@
 #import "UIColor+BFPaperColors.h"
 #import "FontAwesomeKit.h"
 #import <AVFoundation/AVFoundation.h>
-@import MediaPlayer;
+
 @interface MainMenuViewController ()
 @property (nonatomic)BFPaperButton *flatRoundedButton;
 @property (weak, nonatomic) IBOutlet UIImageView *titleImageView;
-@property (nonatomic, strong)MPMoviePlayerController *moviePlayer;
+
 @end
 @implementation MainMenuViewController{
     
@@ -38,7 +38,7 @@
 
 }
 -(void)setTheVideo{
-    NSString *path = [[NSBundle mainBundle]pathForResource:@"flower2" ofType:@"m4v"]; // flower2 720x576
+    NSString *path = [[NSBundle mainBundle]pathForResource:@"Snoler_480p2997_copyrightdownloopscom" ofType:@"mov"]; // flower2 720x576
     NSURL *url = [NSURL fileURLWithPath:path];
     
     _playerLayer =[AVPlayerLayer playerLayerWithPlayer:[[AVPlayer alloc]initWithURL:url]];
