@@ -38,7 +38,7 @@
 
 }
 -(void)setTheVideo{
-    NSString *path = [[NSBundle mainBundle]pathForResource:@"Snoler_480p2997_copyrightdownloopscom" ofType:@"mov"]; // flower2 720x576
+    NSString *path = [[NSBundle mainBundle]pathForResource:@"Snoler" ofType:@"mov"]; 
     NSURL *url = [NSURL fileURLWithPath:path];
     
     _playerLayer =[AVPlayerLayer playerLayerWithPlayer:[[AVPlayer alloc]initWithURL:url]];

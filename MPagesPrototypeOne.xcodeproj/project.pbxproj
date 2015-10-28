@@ -14,8 +14,8 @@
 		600F965F1B6966330051B9F9 /* MPagesPrototypeOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 600F965E1B6966330051B9F9 /* MPagesPrototypeOneTests.m */; };
 		600F966A1B69667D0051B9F9 /* MPInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 600F96691B69667D0051B9F9 /* MPInputViewController.m */; };
 		601824981BB041460001ED0F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601824971BB041460001ED0F /* CoreText.framework */; };
+		601E7BF11BE0FFF10092EE49 /* Snoler.mov in Resources */ = {isa = PBXBuildFile; fileRef = 601E7BF01BE0FFF10092EE49 /* Snoler.mov */; };
 		602031641BB19D020091AF4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 602031631BB19D020091AF4E /* Images.xcassets */; };
-		6098CC4F1BDFD9CF00732E2B /* Snoler_480p2997_copyrightdownloopscom.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6098CC4E1BDFD9CF00732E2B /* Snoler_480p2997_copyrightdownloopscom.mov */; };
 		60E50C0C1BB07B5F00A472FF /* HudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E50C0B1BB07B5F00A472FF /* HudView.m */; };
 		60FA64561B6E6DDD00BAC045 /* MainMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FA64551B6E6DDD00BAC045 /* MainMenuViewController.m */; };
 		909B9DA1D8C1F00AB149E6A9 /* libPods-MPagesPrototypeOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F753C8F539548B1A87236A70 /* libPods-MPagesPrototypeOne.a */; };
@@ -46,8 +46,8 @@
 		600F96681B69667D0051B9F9 /* MPInputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPInputViewController.h; sourceTree = "<group>"; };
 		600F96691B69667D0051B9F9 /* MPInputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPInputViewController.m; sourceTree = "<group>"; };
 		601824971BB041460001ED0F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		601E7BF01BE0FFF10092EE49 /* Snoler.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Snoler.mov; sourceTree = "<group>"; };
 		602031631BB19D020091AF4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6098CC4E1BDFD9CF00732E2B /* Snoler_480p2997_copyrightdownloopscom.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Snoler_480p2997_copyrightdownloopscom.mov; sourceTree = "<group>"; };
 		60E50C0A1BB07B5F00A472FF /* HudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudView.h; sourceTree = "<group>"; };
 		60E50C0B1BB07B5F00A472FF /* HudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudView.m; sourceTree = "<group>"; };
 		60FA64541B6E6DDD00BAC045 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
@@ -99,9 +99,9 @@
 		600F96411B6966320051B9F9 /* MPagesPrototypeOne */ = {
 			isa = PBXGroup;
 			children = (
-				6098CC4E1BDFD9CF00732E2B /* Snoler_480p2997_copyrightdownloopscom.mov */,
 				600F96461B6966320051B9F9 /* AppDelegate.h */,
 				600F96471B6966320051B9F9 /* AppDelegate.m */,
+				601E7BF01BE0FFF10092EE49 /* Snoler.mov */,
 				602031631BB19D020091AF4E /* Images.xcassets */,
 				600F964C1B6966330051B9F9 /* Main.storyboard */,
 				60FA64541B6E6DDD00BAC045 /* MainMenuViewController.h */,
@@ -243,9 +243,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				602031641BB19D020091AF4E /* Images.xcassets in Resources */,
+				601E7BF11BE0FFF10092EE49 /* Snoler.mov in Resources */,
 				600F964E1B6966330051B9F9 /* Main.storyboard in Resources */,
 				600F96531B6966330051B9F9 /* LaunchScreen.xib in Resources */,
-				6098CC4F1BDFD9CF00732E2B /* Snoler_480p2997_copyrightdownloopscom.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
