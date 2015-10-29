@@ -13,9 +13,12 @@
 #import "UIColor+BFPaperColors.h"
 #import "FontAwesomeKit.h"
 #import <AVFoundation/AVFoundation.h>
+#import "TAOverlay.h"
 
 @interface MainMenuViewController ()
 @property (nonatomic)BFPaperButton *flatRoundedButton;
+@property (nonatomic)BFPaperButton *infoRoundedButton;
+
 @property (weak, nonatomic) IBOutlet UIImageView *titleImageView;
 
 @end
@@ -38,7 +41,7 @@
 
 }
 -(void)setTheVideo{
-    NSString *path = [[NSBundle mainBundle]pathForResource:@"Snoler" ofType:@"mov"]; 
+    NSString *path = [[NSBundle mainBundle]pathForResource:@"Snoler" ofType:@"mov"];
     NSURL *url = [NSURL fileURLWithPath:path];
     
     _playerLayer =[AVPlayerLayer playerLayerWithPlayer:[[AVPlayer alloc]initWithURL:url]];
@@ -55,13 +58,14 @@
     [_playerLayer.player play];
     
     _playerLayer.frame = _playerView.layer.bounds;
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loopVideo) name:AVPlayerItemDidPlayToEndTimeNotification object:[_playerLayer.player currentItem]];
+
     
     
 }
 
 -(void)viewDidLoad{
 
-[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(loopVideo) name:AVPlayerItemDidPlayToEndTimeNotification object:_playerLayer.player];
     
     
 }
@@ -95,9 +99,41 @@
     
     
     
+    self.infoRoundedButton = [[BFPaperButton alloc]initWithFrame:CGRectMake(middleScreen.x, middleScreen.y+100, 50, 50) raised:NO];
+    
+    self.infoRoundedButton.backgroundColor = [UIColor paperColorBlue800];
+    self.infoRoundedButton.alpha = 0.6;
+    self.infoRoundedButton.cornerRadius = self.flatRoundedButton.frame.size.width / 2.0;
+    self.infoRoundedButton.tapCircleColor = [UIColor yellowColor];
+    self.infoRoundedButton.rippleFromTapLocation = NO;
+    
+    FAKFontAwesome *infoIcon = [FAKFontAwesome infoIconWithSize:20];
+    [infoIcon addAttribute:NSForegroundColorAttributeName value:[UIColor whiteColor]];
+    [self.infoRoundedButton setBackgroundImage:[infoIcon imageWithSize:CGSizeMake(30,30)] forState:UIControlStateNormal];
+    
+    
+    
+    [self.infoRoundedButton addTarget:self
+                               action:@selector(infoOverlay:)
+                     forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:self.infoRoundedButton];
+    
+    
+    
 }
-
+-(IBAction)infoOverlay:(id)sender{
+    
+    [TAOverlay showOverlayWithLabel:@"Morning Ritual is an app inspired by the 'Morning Pages' a concept from 'The Artist 's Way' by Julia Cameron, which promotes the idea of writing down three pages of your thoughts each morning to clear your mind."
+                            Options:TAOverlayOptionOverlayTypeInfo |
+                            TAOverlayOptionOverlaySizeRoundedRect |
+                            TAOverlayOptionOverlayDismissTap];
+   // NSLog(@"tapped the Info button");
+    
+}
 -(void)delaySegue{
+
+    
     [self performSegueWithIdentifier:@"MPController" sender:nil];
     
 }

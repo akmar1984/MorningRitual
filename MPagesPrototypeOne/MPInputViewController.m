@@ -9,7 +9,7 @@
 #import "MPInputViewController.h"
 #import "FontAwesomeKit.h"
 #import "HudView.h"
-
+#import "TAOverlay.h"
 
 static const CGFloat buttonOffset = 60;
 
@@ -65,7 +65,7 @@ static const CGFloat buttonOffset = 60;
     
 }
 -(IBAction)closeScreen:(id)sender{
-    
+
     [self dismissViewControllerAnimated:YES completion:nil];
     
 }
@@ -99,8 +99,9 @@ static const CGFloat buttonOffset = 60;
     }
     if (self.counter >= 6) {
         _pageImage03.hidden = NO;
-        [HudView hudInView:self.navigationController.view animated:YES];
-        [self performSelector:@selector(closeScreen:) withObject:self afterDelay:5]; //default 1.6
+        [TAOverlay showOverlayWithLabel:@"Well Done" Options:TAOverlayOptionAutoHide  | TAOverlayOptionOverlayTypeSuccess];
+//        [HudView hudInView:self.navigationController.view animated:YES];
+        [self performSelector:@selector(closeScreen:) withObject:self afterDelay:2]; //default 1.6
     }else{
         _pageImage03.hidden = YES;
     }
@@ -264,7 +265,8 @@ static const CGFloat buttonOffset = 60;
     self.textView.alpha = 1.0;
     self.textView.backgroundColor = [UIColor whiteColor];
     self.textView.font = [UIFont fontWithName:@"Futura-Medium" size:20];
-    self.textView.textColor = [UIColor colorWithRed:12.0f/255.0f green:52.0f/255.0f blue:61.0f/255.0f alpha:1.0];
+    self.textView.textColor = [UIColor colorWithRed:56.0f/255.0f green:120.0f/255.0f blue:22.0f/255.0f alpha:1.0];
+    //dark blue [UIColor colorWithRed:12.0f/255.0f green:52.0f/255.0f blue:61.0f/255.0f alpha:1.0];
      self.textView.delegate = self;
     self.textView.autocorrectionType = UITextAutocorrectionTypeNo;
     

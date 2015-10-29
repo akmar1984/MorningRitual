@@ -28,7 +28,8 @@
     [[UINavigationBar appearance]setBarTintColor:[UIColor blackColor]];
     [[UINavigationBar appearance]setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor],}];
     
-    [[UIBarButtonItem appearance]setTintColor:[UIColor colorWithRed:241.0f/255.0f green:194.0f/255.0f blue:50.0f/255.0f alpha:1.0]];
+    [[UIBarButtonItem appearance]setTintColor:[UIColor colorWithRed:188.0f/255.0f green:77.0f/255.0f blue:77.0f/255.0f alpha:1.0]];
+    //yello UIColor colorWithRed:241.0f/255.0f green:194.0f/255.0f blue:50.0f/255.0f alpha:1.0]
    
 }
 - (void)applicationWillResignActive:(UIApplication *)application {
