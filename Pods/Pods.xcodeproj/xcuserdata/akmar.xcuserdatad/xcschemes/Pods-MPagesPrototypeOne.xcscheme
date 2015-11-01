@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "03FA85624612E19AE716FF46"
+               BlueprintIdentifier = "8A8530F5F974E7C671EE31BD"
                BuildableName = "libPods-MPagesPrototypeOne.a"
                BlueprintName = "Pods-MPagesPrototypeOne"
                ReferencedContainer = "container:Pods.xcodeproj">

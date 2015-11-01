@@ -6,6 +6,7 @@ pod ‘FontAwesomeKit’
 pod 'VBFPopFlatButton’
 pod 'BFPaperButton'
 pod 'TAOverlay'
+pod 'AMPopTip'
 end
 
 target 'MPagesPrototypeOneTests' do

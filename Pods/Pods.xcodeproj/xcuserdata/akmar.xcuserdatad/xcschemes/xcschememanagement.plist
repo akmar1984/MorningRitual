@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AMPopTip.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>BFPaperButton.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,7 +52,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1D55E7C11103BC232C03EB23B4DC9C53</key>
+		<key>302266D8A22B039A32340F5660A8B736</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3AB67457E1A77198B29A1ADBCF056B26</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4655C356FFE3556BCCDA1FF5781E2E9C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -57,17 +72,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8DA233329C2707DF3BCBBD8F8B3E0365</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>988A672CA03E1F5C68B104712DA59B48</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>9C2216F9F97112EA6E7E00FA6082C297</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A6DB0BB3BAEF9980232F9947335C9647</key>
 		<dict>
 			<key>primary</key>
 			<true/>

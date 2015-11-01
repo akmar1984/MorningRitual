@@ -15,6 +15,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import "TAOverlay.h"
 
+
 @interface MainMenuViewController ()
 @property (nonatomic)BFPaperButton *flatRoundedButton;
 @property (nonatomic)BFPaperButton *infoRoundedButton;
@@ -30,10 +31,9 @@
 -(void)viewWillAppear:(BOOL)animated{
     
     [super viewWillAppear:animated];
-    self.titleImageView.layer.zPosition = 10;
-    [self setTheVideo];
     
-    [self setAnimatedButton];
+    
+   
     
 }
 -(void)viewDidLayoutSubviews{
@@ -66,7 +66,10 @@
 
 -(void)viewDidLoad{
 
+    self.titleImageView.layer.zPosition = 10;
+    [self setTheVideo];
     
+    [self setAnimatedButton];
     
 }
 
@@ -128,18 +131,16 @@
                             Options:TAOverlayOptionOverlayTypeInfo |
                             TAOverlayOptionOverlaySizeRoundedRect |
                             TAOverlayOptionOverlayDismissTap];
-   // NSLog(@"tapped the Info button");
-    
+       
 }
 -(void)delaySegue{
 
-    
     [self performSegueWithIdentifier:@"MPController" sender:nil];
     
 }
 -(IBAction)tappedButton:(id)sender{
     
-   [self performSelector:@selector(delaySegue) withObject:nil afterDelay:0.3];
+   [self performSelector:@selector(delaySegue) withObject:nil afterDelay:0.2];
    
 
 }

@@ -49,7 +49,6 @@
                                            boxHeight)
                                         cornerRadius:10.0f];
     
-   // [[UIColor colorWithRed:28.0f/255.0f green:69.0f/255.0f blue:135.0f/255.0f alpha:0.3]setFill];
     [[UIColor blackColor]setFill];
     [roundedRect fill];
     

@@ -7,290 +7,324 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03A7AF44BA9FF8FAE990406252B8D7F3 /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 486EC295ADBBDC103954D70EF5EA6A89 /* FAKFoundationIcons.m */; };
 		03FF532EB8C5304EFA2E77016458C281 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2726A20CBCFFB77F9972C445E8972099 /* POPPropertyAnimation.mm */; };
-		08F4C2CBE3018B5412FDB7B69BCE7370 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8868E76B0C2B4B5B262EF75FD75DF4C9 /* Foundation.framework */; };
 		09F160052D6F4DF4F769F6A2A351071C /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = EC10F21A5E230A911C2C2E5082CDAE4B /* POPAnimationPrivate.h */; };
 		0C1CB37613966B323D6CDCC62F192EA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8868E76B0C2B4B5B262EF75FD75DF4C9 /* Foundation.framework */; };
 		0E111996ED8AB07B504AD6200F460C6E /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C1E5A4A6882760CB349FCABD22A9DC /* POP.h */; };
 		11924DA123F63743B409090BFC425AD2 /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CC05709207C91767940918CDD4779DC /* POPCGUtils.h */; };
+		12549AB07D78BC898590077F06630C2C /* FAKFoundationIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBCD95FE4BAC7D70B60549AD217811C /* FAKFoundationIcons.m */; };
+		12F494BA042A1126C0C2E90F40C07740 /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = BD44C8D663AEDD6FA8CF4C472D899704 /* FAKIonIcons.m */; };
 		142E5067D5ED5D3FB4ACF0F695787941 /* VBFPopFlatButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A62CA91254A51EF35F0EA01664015 /* VBFPopFlatButton-dummy.m */; };
 		18B097F0A01D6C3217803F4D25BEA8D7 /* TAOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 025E41A8F7F527EC5A4E1E97C6182EEB /* TAOverlay.m */; };
+		18DAD66AE2524F113D2D3057C7F8BBC5 /* FAKZocial.h in Headers */ = {isa = PBXBuildFile; fileRef = 48BAE9F4F03067EFB44115D26DC28A23 /* FAKZocial.h */; };
 		1937EC6CD83AA2FAB3455591AB074459 /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 134BDC30251FB7A5465C17F603FCAC5F /* POPPropertyAnimationInternal.h */; };
+		19E0AB237AFC8BA739B0EE97FE0E68CB /* BFPaperButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B1009A156F68FF5F770F678447A3833 /* BFPaperButton.h */; };
 		1BEBEDAB53B9DB3AD45E1F70637747F9 /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 6961E549FC85F85EB7560B887B11C928 /* POPSpringSolver.h */; };
+		1CD839F2897BA54EBC18841DD5413A7E /* AMPopTip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4430AA973B284371D79C404435C14960 /* AMPopTip-dummy.m */; };
 		22030D04E39440FA02B75449A95BF767 /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 5785AD09C2208501D5161E950E701889 /* POPAnimationEventInternal.h */; };
 		226B9015C8E393975BCF1AFEA63C1D51 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = B330BCF969EF6189E02E10926FB95CED /* POPGeometry.mm */; };
 		23FC5124B2FA2C879AFE378BBB12AC3A /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C24554FAA71D841BC3C0759DA37874AE /* POPSpringAnimation.mm */; };
+		249CE7D36C495FEBF52FB3B3EBF527E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8868E76B0C2B4B5B262EF75FD75DF4C9 /* Foundation.framework */; };
+		28EE9C3DD7D58372F89DCE7AEE92E56F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB4F9691EEA399FADB415C36FBE561C0 /* UIKit.framework */; };
 		2AD822A4C6DD9CA6D499CF6955198F4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8868E76B0C2B4B5B262EF75FD75DF4C9 /* Foundation.framework */; };
-		2CEAEA4AD20E4F70090DEABDADB4FC82 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B379B86BB3D1B682907B83710C2F59ED /* CoreText.framework */; };
 		2D2802644E975E0F4464808FE37C4076 /* TAOverlay.h in Headers */ = {isa = PBXBuildFile; fileRef = 22076EB5908907E337026DFC77E4DB7C /* TAOverlay.h */; };
-		310A435025788221ED681890DAFE04D4 /* BFPaperButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 319F9541A39484791EE4F2D980416BB6 /* BFPaperButton.h */; };
+		30048DBA7AEA6CF72D4DE3DD72992358 /* FAKZocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 782D93258F09348471003065984ED529 /* FAKZocial.m */; };
 		32A7371F19FC366D8DF77A2FA2166918 /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4FC6A3A06D9292C296C691005546B /* POPCustomAnimation.mm */; };
-		3C2D2F4AAC4B819469C625F7AB868C6E /* FAKFontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = 30A8454CB0CD9F5CF52831F8E046EEE5 /* FAKFontAwesome.h */; };
-		460806DA2A531D68086A38E0D18A8372 /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F38C4CCDD67BE7ADE020B9DF47BC8AE /* FAKFontAwesome.m */; };
+		455BA49364029623E3AEB3B7722D529D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8868E76B0C2B4B5B262EF75FD75DF4C9 /* Foundation.framework */; };
 		461ADD1403E940D9DB7BBB5B7323376F /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3FE18EB564AF4087573DE6F3F2D3D3 /* POPMath.h */; };
+		467626CFC3BE2D0F160DC2DC65766D57 /* AMPopTip+Animation.h in Headers */ = {isa = PBXBuildFile; fileRef = AC1B7E17F017EC5C69FB732032421385 /* AMPopTip+Animation.h */; };
+		472E5B59EE5FAF1BFC1ADB0FA43A8B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8868E76B0C2B4B5B262EF75FD75DF4C9 /* Foundation.framework */; };
+		48F1042090A15AA9988DFA20791AA8FF /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = CCEC531EAE29BF7914FEE378459A8E2A /* FAKIcon.h */; };
+		4A3F5820063C1971019AB3A1295F6C11 /* FAKFontAwesome.h in Headers */ = {isa = PBXBuildFile; fileRef = C371066FA090D80E07596CC073B2C312 /* FAKFontAwesome.h */; };
 		4ACF656AFA1302DCF387C7A2D0F238F2 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = F0B4105C7EE2DA010EA4746E79138C7C /* POPVector.mm */; };
 		4BA566241FA98C1D5E4A5284D84EAB71 /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = EB56BE02F1B0412A41C9D9834B04BC30 /* POPSpringAnimationInternal.h */; };
+		50991581F19BF94AD9D2315AC24B7F67 /* FontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D05512F9AB00EC22372AEB9A0EE5DE /* FontAwesomeKit-dummy.m */; };
+		512A438D62C367E974FAAF23A2EA2669 /* AMPopTip+Draw.h in Headers */ = {isa = PBXBuildFile; fileRef = BFE9E6507EC7C1425C8C79C01DA197A1 /* AMPopTip+Draw.h */; };
+		529553D32C14B92FD5A4510F5BF6F9C2 /* AMPopTipDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 9310B8D9CAE4B46BBEA370A8C235D42F /* AMPopTipDefaults.h */; };
 		5520088E66FB2528F595AA617FFC5D9A /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5F7AF86D19E519B94AD6D8CB98CC34 /* POPAnimationRuntime.h */; };
 		59CB94574F710422B4C9CD6D388CCA03 /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 928EC8B9105DA581C7896C2102E87BE2 /* POPCustomAnimation.h */; };
 		5BFDF4E4848A83D2225D948A6D0B79B5 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = E85E0983DBE882A8009D0F7EAB591B91 /* POPAnimationRuntime.mm */; };
 		620920967F6C1FB5C501AD33EFDA1639 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0DF3C83EBC5F7BF6DAAACEBD7D72791 /* POPAnimationEvent.mm */; };
+		6630FC82D479DFFD74A8BEE23A4848CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8868E76B0C2B4B5B262EF75FD75DF4C9 /* Foundation.framework */; };
 		6B48B22BAAFA2E8C6846E7F5A4033CFA /* TAOverlay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 860556C6A6F9E0C2588541B6F6DF90F0 /* TAOverlay-dummy.m */; };
 		6E03EDBD6B2582CF213C0F1472960AC5 /* UIColor+BFPaperColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D95B1810F81CC48789415060DA687CC /* UIColor+BFPaperColors.h */; };
-		7636ECA129BB3F093083FBE0B9EBAFE6 /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B94C5F3E406AE7A80C3189519890E0 /* FAKIcon.m */; };
+		708039C0EB5D28C0AADC53DCACFF0538 /* FAKFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CD95E0787AC433AC9889075CB433D1 /* FAKFontAwesome.m */; };
 		77A4AD5F4ED686492ADAFF84A866892C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8868E76B0C2B4B5B262EF75FD75DF4C9 /* Foundation.framework */; };
 		795E704A17919AB70FF6F5738289A44D /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22DC4C87D619EF0F28631B5560E82333 /* POPAnimationExtras.mm */; };
-		7A7F1894C90F9ED7EC14D5A2AEABBE16 /* FAKZocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 760DD8E1C85BE27BC14C921A94214EF8 /* FAKZocial.m */; };
+		7A53BC01820EEE5ED7AABADF6CED5952 /* AMPopTip.m in Sources */ = {isa = PBXBuildFile; fileRef = 068C44321F2063E88B1D4DC1077A1798 /* AMPopTip.m */; };
 		7B99231436CB0981EC5113A681AF7C8E /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DA58C3428E2A0E2F88C2A0522297274 /* POPAnimationTracerInternal.h */; };
 		7D2E1DA076E379421DF5A9E74C0FD4DB /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = F54B1AE39CAF0CA846C1C729B033E047 /* POPBasicAnimation.mm */; };
 		7DC645E712D9190C15F71B1B92844D2C /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B3FD41DEC22C5891C9B83C27BC25E0 /* pop-dummy.m */; };
 		7EE77B776CF54D5794EB5D9DB5FCF8D4 /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F81E8633F1E784423FE8B9BE16D38981 /* POPPropertyAnimation.h */; };
 		804C70F77F75F0E75ACC3E3E4B47B727 /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 9663A817A809169745F3F8E987FFE076 /* POPLayerExtras.h */; };
+		84E693484E44EA6B3358D437A342EAF4 /* FAKFoundationIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 114CCB2EE6E1EAF0B8E7C963BCC73F5F /* FAKFoundationIcons.h */; };
 		868BFBCD8263F71F8A14CBBDDAF5B748 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 197635F0BFB93E63E82503F09B7AABBF /* POPLayerExtras.mm */; };
 		8847962A8A774E4DF6EE579DBB1E20A8 /* UIColor+BFPaperColors.m in Sources */ = {isa = PBXBuildFile; fileRef = E9778394A6C4C280F81EC67FE1B270B6 /* UIColor+BFPaperColors.m */; };
 		8DF9960DD96F9AC25E32BFDD4A3B53B7 /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = C560616DDF5273CF7C53EF72EA6ED45A /* POPDecayAnimation.mm */; };
-		8E4B16023D919830F75B8C0A202BCBC0 /* Pods-MPagesPrototypeOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F1978EA3C594F82E521D2354633856 /* Pods-MPagesPrototypeOne-dummy.m */; };
 		9088AFD3E6C678A42A8E0189F65F73B6 /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 90DA3C63E9AD758336342BC51C0BB859 /* POPDefines.h */; };
+		9273592416A695E16CC4F46F6260DD60 /* AMPopTip+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2E42C8F225568BD6E78D83B9D0DDAA /* AMPopTip+Draw.m */; };
+		94828B5EECC3F9BF3155EF16C4E568A8 /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AA23207E7F98C986BA8065743ED1B3E /* FontAwesomeKit.h */; };
 		94BFE73B7E00A0FED987F553B0DCE94E /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 313669CF0D1BF49C96C85FC593F4BC1D /* POPAnimatableProperty.h */; };
 		94FACE1C5E4B42AB129DA7326E4E04F9 /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F210DEEA777E0BF1995DC3570CC616E /* POPAnimationEvent.h */; };
 		954C362B5C64B51B0C9F481AEDF82D10 /* VBFPopFlatButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5349C1D79BE4791C3EBE081BCABB66 /* VBFPopFlatButton.h */; };
+		95F044D89D35DE667E4F7A6C3A7B0A94 /* AMPopTip+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = B5126A99A49FACA7814F543990696DAA /* AMPopTip+Animation.m */; };
 		966900CAD39E8B592A35F8401549A86D /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E056FF5C4EC38A55B45FB52F395D72E /* TransformationMatrix.h */; };
-		9750E5D74797C69C637877095E09DFB5 /* FAKIonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A558FD47EDC5B8BFDCC831F11F66FFD /* FAKIonIcons.m */; };
 		9EA1A272CA3E4FB09F6F77089C0D91FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8868E76B0C2B4B5B262EF75FD75DF4C9 /* Foundation.framework */; };
+		A389F237FF144FB8F5D057F7C7B7AAF1 /* FAKIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B531E733FAA7287CB98B43D7B75FBF9 /* FAKIcon.m */; };
 		A9B701428585304B432F6FD45D7EB707 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = C9565C73D5D4BE79747E60DCF1557E71 /* POPAnimatableProperty.mm */; };
 		AA0189A6FB9572B5BF87E3B0DD1F872C /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = C091E831068E3E504A40AC6932B39C87 /* FloatConversion.h */; };
-		AA5688F93E9E844B46830CEB84A2F00B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8868E76B0C2B4B5B262EF75FD75DF4C9 /* Foundation.framework */; };
-		AD2CB2F7C35676DA511334DCE1AA2C84 /* FAKZocial.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD1BE544826CAA377B7321474C7BD15 /* FAKZocial.h */; };
 		AFEBB8DD2F176DBEF3E1F0FFA6FE7AF8 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0A9ED47A0EA56543BEB2F83DFD6122C8 /* POPCGUtils.mm */; };
-		B0452E355C7813F39D1B0F60C73E2B7E /* BFPaperButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEB2364374429DA06A14B9618A6D82C /* BFPaperButton-dummy.m */; };
+		B39BABF6424736B6CA76F553359A6988 /* FAKIonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 47B32D6A6CF5747A0EDCC0E4B12A6BF8 /* FAKIonIcons.h */; };
 		B5B86F0561840C9F3408D9A3CE3BADD0 /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = B0CE575CDDE0B1795BB8B88E0B49ACA0 /* POPDecayAnimationInternal.h */; };
 		B6DA545595D3CE47BC8F81E673889B4B /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 96015F1C746803D9318614B277F71BCB /* UnitBezier.h */; };
 		BA9989C7128E968BA7D20CFEB392AE9D /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 212068113F29FA47D17730ED388F8706 /* POPBasicAnimation.h */; };
 		BD6626643DD9C3A12AB86F9361EC89DB /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0476012CEBFEB22B5F0926994E6AEEE3 /* POPAnimatorPrivate.h */; };
 		BE267A18590772AAA04953604BC7B310 /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B6A53BFD919966B87CD6FBFD89CE1B /* POPAnimationExtras.h */; };
 		BE7AADE26AC681E19FC8C36C0D306EDB /* UIColor+BFPaperColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 581D3DB5C367DB9FCB35180A4B4B2389 /* UIColor+BFPaperColors-dummy.m */; };
-		BF64FDEF7A0B3CCE6E8FF9D24E0DA601 /* FontAwesomeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 3164F487D8AF2AA41C03FBC521A8238B /* FontAwesomeKit.h */; };
-		C42027C446E536EA11054B8E9F4B7C2D /* FontAwesomeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F876DB962CC0923A6571F52627907D /* FontAwesomeKit-dummy.m */; };
-		C461D880EDE1A1F0C81972A0A21F74DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8868E76B0C2B4B5B262EF75FD75DF4C9 /* Foundation.framework */; };
+		C0ED943D93B87C7530ED33A8BAD51EE5 /* AMPopTip+Entrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 8382E5BF53BD6394B49C1E055FDD7317 /* AMPopTip+Entrance.m */; };
+		CF907736FAE1778DE95D0C2A6A6DC2EA /* BFPaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 55C66FC282ACBE56D0DBF4D699725EEB /* BFPaperButton.m */; };
+		CFF18643599EDDFDBA6D3572235079F7 /* Pods-MPagesPrototypeOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B58848C1E3407DB71EE4FAC765B028 /* Pods-MPagesPrototypeOne-dummy.m */; };
 		D1F3DE878CD47F8530B96C2B7070E0B7 /* VBFDoubleSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = CB570A88EC0F3ED245C509F986EDAEF8 /* VBFDoubleSegment.h */; };
 		D4224969BAFBC6138FFC872CCC829FB9 /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F7BCEE9A871E1193D694931FA31E17 /* POPDecayAnimation.h */; };
 		D5792E05DB34C9521294B06A622AE040 /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E88590D291A3C131FC32F9BC9A80038 /* POPAnimationTracer.h */; };
-		D732178534AD1A4B2A27FCDF08D3ACC6 /* BFPaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC347D2124B34D9BB7DEF70F79C15102 /* BFPaperButton.m */; };
-		D76100BCC955DC25076F46E887398C44 /* FAKIonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = ED6E57DCDA390E5FC714620F2D4DC5B1 /* FAKIonIcons.h */; };
 		D7B60218326B18CF684F836A815E9666 /* VBFPopFlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C8344BE545D92A361BA468E84A14C9 /* VBFPopFlatButton.m */; };
 		D83868EA3920350C53488A4C4F9A5565 /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 3155A15C877F794FB064A4A0CEEB2F13 /* POPGeometry.h */; };
 		DA114858BE3CF3FD42D9EF14DCDF3A1C /* VBFDoubleSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 625FF464F8072D7BF2CFD63C3414FBA6 /* VBFDoubleSegment.m */; };
 		DBEF60495B33D1BA4C7BA3C8E3A24968 /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7371F16336283F2D8BB2A199CD4DDEF5 /* POPSpringAnimation.h */; };
 		E03238690A5A21C9B8ADCC9737633061 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8336CCF2280C58E6C367DF4EC0EBB7B3 /* POPAnimation.mm */; };
-		E15561FF3018A2CA2E5F4D5D9B3EFF78 /* FAKIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CC3293A27EB89CF450A7E7F433E354 /* FAKIcon.h */; };
+		E29602435D9658C20909A26C7A9D5A81 /* BFPaperButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 901D6E85F11A6DAFAC9058C63FD0D5BE /* BFPaperButton-dummy.m */; };
 		E66A972C821119D091B99E54200F7FC0 /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 94815AA3EE3CBA04CEE85515701AD534 /* POPAnimator.h */; };
 		EB965B246F7206AE338A7DF882400A0E /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = D5CE48778301C24CD288B08DDA441605 /* POPVector.h */; };
 		ED0BF4FE2052871A5C209B796BA9D91E /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = ECC48BF18D3BD01C21B65648709A45D6 /* POPAnimator.mm */; };
 		ED3821443DA3268139C3CE29A592C03C /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A985A006B0CCD0116D8FC53C4D1834 /* POPAction.h */; };
+		EF0006D5F9D2E363E7AAB77406D1401E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC834822DF55AB0B9F5AEEF4582AAA51 /* CoreText.framework */; };
 		F1869B0A07F843009A3268A12F2F96CF /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F59C51782AE555897A5B92D6B3CECD1 /* POPBasicAnimationInternal.h */; };
 		F353B70A061E08623279B54744E15DA7 /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = ED596D85957A49EC6092EC8EC38FCE49 /* POPAnimationInternal.h */; };
 		F388B7C3B4B0325048D4B5E4C1BAF904 /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 14938EB08280063D294781C3164C8332 /* POPAnimation.h */; };
 		F3A5D609595883FAB0550B75A0237C58 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = A19FD133843D5FCF16B8AF3B4E165515 /* POPMath.mm */; };
+		F4A4F24FF91126B7169DCB5CF73E6EA3 /* AMPopTip+Entrance.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FCE2C3B84B8C28A6D3EA448A6D6DD8D /* AMPopTip+Entrance.h */; };
 		F50CFC840B1B486D290EF5656C3AB5A4 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35574BADA6CDEA944F089CBC021F01AA /* TransformationMatrix.cpp */; };
-		F9555FF7459394526278C79289552801 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6675308213F38DFE74994269D2BDBCF1 /* UIKit.framework */; };
+		F8AC8CD67A3173E07546FE774B9265AA /* AMPopTip.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CC56488FEB6F43E60DF6BBFE4FCAC2 /* AMPopTip.h */; };
 		F9627C89FA11AC0378E77DF8EF1535FF /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C1E27C3CBB149C1873F6CDC55D998CE2 /* POPAnimationTracer.mm */; };
-		FB114F877B11304535F544499122582E /* FAKFoundationIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 951B6E029B718D6D4245579D66E4509B /* FAKFoundationIcons.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0FA6E6FEC967D0659AF1A28815457AD5 /* PBXContainerItemProxy */ = {
+		1EB8D9C85F45BD715633FDC02B7300DB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 47C800E42623009B7192B025B3DD25A1;
 			remoteInfo = pop;
 		};
-		818AF1929CEC896E4B853C7A012F5289 /* PBXContainerItemProxy */ = {
+		26BAA0F0B98B8CCB9512A2EDED87755D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F43885B233F4B9CCC43E1736A5087DD7;
 			remoteInfo = "UIColor+BFPaperColors";
 		};
-		8E040CBDEADCEC7EEDE8D4A094EBAEA9 /* PBXContainerItemProxy */ = {
+		4B939B2B443BE3B013EB941E4567A11F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1512126BD78F6B7D346D1E0DAEECB9DC;
-			remoteInfo = TAOverlay;
-		};
-		B722F47711B7162711A6ADC1D5213F0C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F43885B233F4B9CCC43E1736A5087DD7;
-			remoteInfo = "UIColor+BFPaperColors";
-		};
-		BEF7E0BE48FA2E3B4A97D26ACA4A5840 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 988A672CA03E1F5C68B104712DA59B48;
+			remoteGlobalIDString = 3AB67457E1A77198B29A1ADBCF056B26;
 			remoteInfo = FontAwesomeKit;
 		};
-		D5E0133811E3EA7EA70485AF0E9B7C6F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8DA233329C2707DF3BCBBD8F8B3E0365;
-			remoteInfo = BFPaperButton;
-		};
-		FADFDEC7B03ABE5D5159A500D84E868A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 47C800E42623009B7192B025B3DD25A1;
-			remoteInfo = pop;
-		};
-		FF50F0E5ACF72797253BDA4B4AEA5C91 /* PBXContainerItemProxy */ = {
+		5BC0328DF19AF0E90BE67919F311C530 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9C2216F9F97112EA6E7E00FA6082C297;
 			remoteInfo = VBFPopFlatButton;
 		};
+		87F831E9ED1BADE250A1C6AC579AB0C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F43885B233F4B9CCC43E1736A5087DD7;
+			remoteInfo = "UIColor+BFPaperColors";
+		};
+		C9E8C6706B567177C88A7BC108D44E49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 302266D8A22B039A32340F5660A8B736;
+			remoteInfo = AMPopTip;
+		};
+		D9D304351CA51A3107B0F1FDF1DF29A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1512126BD78F6B7D346D1E0DAEECB9DC;
+			remoteInfo = TAOverlay;
+		};
+		EB7826D610AAFB062121AE8533DB58A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47C800E42623009B7192B025B3DD25A1;
+			remoteInfo = pop;
+		};
+		F0E269C69290215C72D406B0476CDB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4655C356FFE3556BCCDA1FF5781E2E9C;
+			remoteInfo = BFPaperButton;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		025E41A8F7F527EC5A4E1E97C6182EEB /* TAOverlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TAOverlay.m; path = TAOverlay/TAOverlay.m; sourceTree = "<group>"; };
 		0476012CEBFEB22B5F0926994E6AEEE3 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		068C44321F2063E88B1D4DC1077A1798 /* AMPopTip.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMPopTip.m; path = Source/AMPopTip.m; sourceTree = "<group>"; };
 		0A9ED47A0EA56543BEB2F83DFD6122C8 /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
 		0C4A62CA91254A51EF35F0EA01664015 /* VBFPopFlatButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VBFPopFlatButton-dummy.m"; sourceTree = "<group>"; };
+		101ABC37633FC5F5B7A5B1BED32E699A /* AMPopTip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPopTip-prefix.pch"; sourceTree = "<group>"; };
+		114CCB2EE6E1EAF0B8E7C963BCC73F5F /* FAKFoundationIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFoundationIcons.h; path = FontAwesomeKit/FAKFoundationIcons.h; sourceTree = "<group>"; };
 		134BDC30251FB7A5465C17F603FCAC5F /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
 		14938EB08280063D294781C3164C8332 /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
 		197635F0BFB93E63E82503F09B7AABBF /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		1B1009A156F68FF5F770F678447A3833 /* BFPaperButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFPaperButton.h; path = Classes/BFPaperButton.h; sourceTree = "<group>"; };
 		1B354E398AF9F182E7D7681A9F5FF8F1 /* TAOverlay-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "TAOverlay-Private.xcconfig"; sourceTree = "<group>"; };
-		1CEF988E0EBC5CA7D7CB589D82D93946 /* UIColor+BFPaperColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+BFPaperColors-prefix.pch"; sourceTree = "<group>"; };
 		212068113F29FA47D17730ED388F8706 /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
 		22076EB5908907E337026DFC77E4DB7C /* TAOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TAOverlay.h; path = TAOverlay/TAOverlay.h; sourceTree = "<group>"; };
 		22DC4C87D619EF0F28631B5560E82333 /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
-		22EC8FF4EE47CC8CD368275874436286 /* TAOverlay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TAOverlay.xcconfig; sourceTree = "<group>"; };
+		25CD95E0787AC433AC9889075CB433D1 /* FAKFontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
 		2726A20CBCFFB77F9972C445E8972099 /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
-		27D6717524F532BBF4DAE030FA99DBDD /* Pods-MPagesPrototypeOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPagesPrototypeOne.release.xcconfig"; sourceTree = "<group>"; };
-		2CF12EE445C3A53D89CC71C55091EE76 /* TAOverlay.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TAOverlay.bundle; path = TAOverlay/TAOverlay.bundle; sourceTree = "<group>"; };
+		2D2E42C8F225568BD6E78D83B9D0DDAA /* AMPopTip+Draw.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AMPopTip+Draw.m"; path = "Source/AMPopTip+Draw.m"; sourceTree = "<group>"; };
 		2E056FF5C4EC38A55B45FB52F395D72E /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
 		2E88590D291A3C131FC32F9BC9A80038 /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
-		30A8454CB0CD9F5CF52831F8E046EEE5 /* FAKFontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
 		313669CF0D1BF49C96C85FC593F4BC1D /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
 		3155A15C877F794FB064A4A0CEEB2F13 /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
-		3164F487D8AF2AA41C03FBC521A8238B /* FontAwesomeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = FontAwesomeKit/FontAwesomeKit.h; sourceTree = "<group>"; };
-		319F9541A39484791EE4F2D980416BB6 /* BFPaperButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BFPaperButton.h; path = Classes/BFPaperButton.h; sourceTree = "<group>"; };
 		35574BADA6CDEA944F089CBC021F01AA /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
+		3701854FF3E10D8F3F12F30A70732D8F /* TAOverlay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TAOverlay.xcconfig; sourceTree = "<group>"; };
 		38C1E5A4A6882760CB349FCABD22A9DC /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
-		39CC3293A27EB89CF450A7E7F433E354 /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
+		39D05512F9AB00EC22372AEB9A0EE5DE /* FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
 		3A5F7AF86D19E519B94AD6D8CB98CC34 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
+		3C66BBAA56C106759B8D713A2497070B /* FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
 		3D6E5C59D44CA739072AA071BD2DD72E /* VBFPopFlatButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "VBFPopFlatButton-Private.xcconfig"; sourceTree = "<group>"; };
-		3D8FC5E75AA3FA6FC7B4EA33D8139938 /* UIColor+BFPaperColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor+BFPaperColors.xcconfig"; sourceTree = "<group>"; };
-		40370571678F4AD718F8F3AADDF2000F /* VBFPopFlatButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VBFPopFlatButton.xcconfig; sourceTree = "<group>"; };
-		42399F9C783B1490E612EA0A6C727882 /* FontAwesomeKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FontAwesomeKit-Private.xcconfig"; sourceTree = "<group>"; };
-		486EC295ADBBDC103954D70EF5EA6A89 /* FAKFoundationIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = FontAwesomeKit/FAKFoundationIcons.m; sourceTree = "<group>"; };
-		4A558FD47EDC5B8BFDCC831F11F66FFD /* FAKIonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = FontAwesomeKit/FAKIonIcons.m; sourceTree = "<group>"; };
+		3D973E086F754114F630DFB368BB98F6 /* libPods-MPagesPrototypeOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MPagesPrototypeOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4282A035E62D87C68BD3698FBBEB76B4 /* BFPaperButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BFPaperButton.xcconfig; sourceTree = "<group>"; };
+		4430AA973B284371D79C404435C14960 /* AMPopTip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMPopTip-dummy.m"; sourceTree = "<group>"; };
+		47B32D6A6CF5747A0EDCC0E4B12A6BF8 /* FAKIonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = FontAwesomeKit/FAKIonIcons.h; sourceTree = "<group>"; };
+		48BAE9F4F03067EFB44115D26DC28A23 /* FAKZocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = FontAwesomeKit/FAKZocial.h; sourceTree = "<group>"; };
 		4CC05709207C91767940918CDD4779DC /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
 		4E5349C1D79BE4791C3EBE081BCABB66 /* VBFPopFlatButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VBFPopFlatButton.h; path = VBFPopFlatButton/VBFPopFlatButtonClasses/VBFPopFlatButton.h; sourceTree = "<group>"; };
-		56D03CD1D09C1414A4939AF08CFA9D8C /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
+		55C66FC282ACBE56D0DBF4D699725EEB /* BFPaperButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFPaperButton.m; path = Classes/BFPaperButton.m; sourceTree = "<group>"; };
 		5785AD09C2208501D5161E950E701889 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
 		581D3DB5C367DB9FCB35180A4B4B2389 /* UIColor+BFPaperColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BFPaperColors-dummy.m"; sourceTree = "<group>"; };
 		59B3FD41DEC22C5891C9B83C27BC25E0 /* pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pop-dummy.m"; sourceTree = "<group>"; };
 		5AABEAB40B785094AA4B3680A82E2F3B /* pop-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "pop-Private.xcconfig"; sourceTree = "<group>"; };
-		5CA0ABAAD62B755750F0F2C9C3FE33D0 /* TAOverlay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TAOverlay-prefix.pch"; sourceTree = "<group>"; };
+		5B531E733FAA7287CB98B43D7B75FBF9 /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
+		5E23B9500F7E099AF0ED7DEF8B94B933 /* pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-prefix.pch"; sourceTree = "<group>"; };
+		5FCE2C3B84B8C28A6D3EA448A6D6DD8D /* AMPopTip+Entrance.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AMPopTip+Entrance.h"; path = "Source/AMPopTip+Entrance.h"; sourceTree = "<group>"; };
 		625FF464F8072D7BF2CFD63C3414FBA6 /* VBFDoubleSegment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VBFDoubleSegment.m; path = VBFPopFlatButton/VBFPopFlatButtonClasses/VBFDoubleSegment.m; sourceTree = "<group>"; };
-		6675308213F38DFE74994269D2BDBCF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		63D857C480004A0726F71673AEC55A69 /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "zocial-regular-webfont.ttf"; path = "FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
+		65CC56488FEB6F43E60DF6BBFE4FCAC2 /* AMPopTip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPopTip.h; path = Source/AMPopTip.h; sourceTree = "<group>"; };
+		676B17ED1FC7A57D651932E264A03815 /* AMPopTip-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AMPopTip-Private.xcconfig"; sourceTree = "<group>"; };
 		6961E549FC85F85EB7560B887B11C928 /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
-		6F24EB79DC8A34B7B036187186856C83 /* Pods-MPagesPrototypeOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPagesPrototypeOne.debug.xcconfig"; sourceTree = "<group>"; };
+		73011F3563381E84417C89918E4922C8 /* foundation-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "foundation-icons.ttf"; path = "FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
 		7371F16336283F2D8BB2A199CD4DDEF5 /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
-		760DD8E1C85BE27BC14C921A94214EF8 /* FAKZocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKZocial.m; path = FontAwesomeKit/FAKZocial.m; sourceTree = "<group>"; };
+		782D93258F09348471003065984ED529 /* FAKZocial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKZocial.m; path = FontAwesomeKit/FAKZocial.m; sourceTree = "<group>"; };
+		78F842FD408DAAF24D2F8CBB229835B4 /* libFontAwesomeKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFontAwesomeKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A904B5323F1BC687117494E36123197 /* libTAOverlay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTAOverlay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B350C9FD49320070F9EBE93F2635BEE /* pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.xcconfig; sourceTree = "<group>"; };
 		7D57D4B69FBEABBF57C158E4C84EB6B2 /* Pods-MPagesPrototypeOne-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MPagesPrototypeOne-acknowledgements.plist"; sourceTree = "<group>"; };
 		7F59C51782AE555897A5B92D6B3CECD1 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
-		81283FA27251046BE85900C33C518B37 /* foundation-icons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "foundation-icons.ttf"; path = "FontAwesomeKit/foundation-icons.ttf"; sourceTree = "<group>"; };
+		8054CFE161F39219F255D2FF7ED25C7D /* libBFPaperButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBFPaperButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B6FC35F59686515BFD73505E94729B /* FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.xcconfig; sourceTree = "<group>"; };
 		8336CCF2280C58E6C367DF4EC0EBB7B3 /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		8382E5BF53BD6394B49C1E055FDD7317 /* AMPopTip+Entrance.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AMPopTip+Entrance.m"; path = "Source/AMPopTip+Entrance.m"; sourceTree = "<group>"; };
+		8422532E86244C075CD48963968FE59A /* TAOverlay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TAOverlay-prefix.pch"; sourceTree = "<group>"; };
 		860556C6A6F9E0C2588541B6F6DF90F0 /* TAOverlay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TAOverlay-dummy.m"; sourceTree = "<group>"; };
-		86852B7192FB2D7B06690649FE0ECB31 /* FontAwesomeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FontAwesomeKit-prefix.pch"; sourceTree = "<group>"; };
+		86B58848C1E3407DB71EE4FAC765B028 /* Pods-MPagesPrototypeOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPagesPrototypeOne-dummy.m"; sourceTree = "<group>"; };
+		87092F8C58D37B9B765DF60A67C3DFDA /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
 		8868E76B0C2B4B5B262EF75FD75DF4C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8B2DB1D0F39994FEE96066DC014CFC07 /* BFPaperButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFPaperButton-prefix.pch"; sourceTree = "<group>"; };
+		8AA23207E7F98C986BA8065743ED1B3E /* FontAwesomeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontAwesomeKit.h; path = FontAwesomeKit/FontAwesomeKit.h; sourceTree = "<group>"; };
 		8EC4FC6A3A06D9292C296C691005546B /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
-		8FEB2364374429DA06A14B9618A6D82C /* BFPaperButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BFPaperButton-dummy.m"; sourceTree = "<group>"; };
+		901D6E85F11A6DAFAC9058C63FD0D5BE /* BFPaperButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BFPaperButton-dummy.m"; sourceTree = "<group>"; };
 		90DA3C63E9AD758336342BC51C0BB859 /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
 		928EC8B9105DA581C7896C2102E87BE2 /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
+		9310B8D9CAE4B46BBEA370A8C235D42F /* AMPopTipDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMPopTipDefaults.h; path = Source/AMPopTipDefaults.h; sourceTree = "<group>"; };
+		941C8658550C5690FCF5891526F0428D /* BFPaperButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BFPaperButton-Private.xcconfig"; sourceTree = "<group>"; };
 		94815AA3EE3CBA04CEE85515701AD534 /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
-		951B6E029B718D6D4245579D66E4509B /* FAKFoundationIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFoundationIcons.h; path = FontAwesomeKit/FAKFoundationIcons.h; sourceTree = "<group>"; };
-		953037625ED6222F3BAAB3EF82F6A800 /* zocial-regular-webfont.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = "zocial-regular-webfont.ttf"; path = "FontAwesomeKit/zocial-regular-webfont.ttf"; sourceTree = "<group>"; };
 		96015F1C746803D9318614B277F71BCB /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
 		9663A817A809169745F3F8E987FFE076 /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
+		9927AA0E6DAA1689738D66A9B7DCB83D /* VBFPopFlatButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VBFPopFlatButton.xcconfig; sourceTree = "<group>"; };
+		9BBCD95FE4BAC7D70B60549AD217811C /* FAKFoundationIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFoundationIcons.m; path = FontAwesomeKit/FAKFoundationIcons.m; sourceTree = "<group>"; };
 		9C3FE18EB564AF4087573DE6F3F2D3D3 /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
-		9D63B8A96E0AC23839791A7BF6251755 /* BFPaperButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BFPaperButton-Private.xcconfig"; sourceTree = "<group>"; };
 		9D95B1810F81CC48789415060DA687CC /* UIColor+BFPaperColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+BFPaperColors.h"; path = "UIColor+BFPaperColors/UIColor+BFPaperColors.h"; sourceTree = "<group>"; };
 		9DA58C3428E2A0E2F88C2A0522297274 /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
 		9F210DEEA777E0BF1995DC3570CC616E /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
-		9F38C4CCDD67BE7ADE020B9DF47BC8AE /* FAKFontAwesome.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKFontAwesome.m; path = FontAwesomeKit/FAKFontAwesome.m; sourceTree = "<group>"; };
+		A091E637DE910704F99F565D848E6D07 /* UIColor+BFPaperColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+BFPaperColors-prefix.pch"; sourceTree = "<group>"; };
 		A19FD133843D5FCF16B8AF3B4E165515 /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
 		A42EBF4FDD2D5AA16FCD758564D29ABC /* libpop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpop.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA2134A6040ED37FC9E128C568B3790B /* libPods-MPagesPrototypeOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MPagesPrototypeOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAD1BE544826CAA377B7321474C7BD15 /* FAKZocial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKZocial.h; path = FontAwesomeKit/FAKZocial.h; sourceTree = "<group>"; };
-		AC70B57D34D597CE018F038780D3B853 /* FontAwesome.otf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.otf; path = FontAwesomeKit/FontAwesome.otf; sourceTree = "<group>"; };
-		AF867573C4289935DCA0FC89D424244B /* BFPaperButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BFPaperButton.xcconfig; sourceTree = "<group>"; };
+		A54278E224D626B48F3B65421ECD576A /* UIColor+BFPaperColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor+BFPaperColors.xcconfig"; sourceTree = "<group>"; };
+		A98B84CCAE0AC632AA3300038C71CC51 /* Pods-MPagesPrototypeOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPagesPrototypeOne.release.xcconfig"; sourceTree = "<group>"; };
+		AC1B7E17F017EC5C69FB732032421385 /* AMPopTip+Animation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AMPopTip+Animation.h"; path = "Source/AMPopTip+Animation.h"; sourceTree = "<group>"; };
+		AC47891A38936C6301FA5ED557CF1C11 /* Pods-MPagesPrototypeOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MPagesPrototypeOne.debug.xcconfig"; sourceTree = "<group>"; };
+		AEDBEEF23657C733C5AC9F5D54C5ABD9 /* BFPaperButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BFPaperButton-prefix.pch"; sourceTree = "<group>"; };
 		B0CE575CDDE0B1795BB8B88E0B49ACA0 /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
 		B0F755FD98B717977E4405EE95A9721D /* libUIColor+BFPaperColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIColor+BFPaperColors.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F7BCEE9A871E1193D694931FA31E17 /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
-		B2F1978EA3C594F82E521D2354633856 /* Pods-MPagesPrototypeOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MPagesPrototypeOne-dummy.m"; sourceTree = "<group>"; };
 		B330BCF969EF6189E02E10926FB95CED /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
-		B379B86BB3D1B682907B83710C2F59ED /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		B5126A99A49FACA7814F543990696DAA /* AMPopTip+Animation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AMPopTip+Animation.m"; path = "Source/AMPopTip+Animation.m"; sourceTree = "<group>"; };
 		B7297C7E2AE556E4659DF8663803AED0 /* Pods-MPagesPrototypeOne-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MPagesPrototypeOne-resources.sh"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF9C3328B1F251FA3D1E1BDAF670BC7B /* libFontAwesomeKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFontAwesomeKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB4F9691EEA399FADB415C36FBE561C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BB7A72280E32E9D6E1C1B8DA54C052BD /* FontAwesomeKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FontAwesomeKit-Private.xcconfig"; sourceTree = "<group>"; };
+		BD44C8D663AEDD6FA8CF4C472D899704 /* FAKIonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIonIcons.m; path = FontAwesomeKit/FAKIonIcons.m; sourceTree = "<group>"; };
+		BFE9E6507EC7C1425C8C79C01DA197A1 /* AMPopTip+Draw.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AMPopTip+Draw.h"; path = "Source/AMPopTip+Draw.h"; sourceTree = "<group>"; };
+		C016B03B9022AD9508038830D4C4AE9E /* TAOverlay.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TAOverlay.bundle; path = TAOverlay/TAOverlay.bundle; sourceTree = "<group>"; };
 		C091E831068E3E504A40AC6932B39C87 /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
-		C0B94C5F3E406AE7A80C3189519890E0 /* FAKIcon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FAKIcon.m; path = FontAwesomeKit/FAKIcon.m; sourceTree = "<group>"; };
 		C0DF3C83EBC5F7BF6DAAACEBD7D72791 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
 		C1B6A53BFD919966B87CD6FBFD89CE1B /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
 		C1E27C3CBB149C1873F6CDC55D998CE2 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
 		C24554FAA71D841BC3C0759DA37874AE /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		C371066FA090D80E07596CC073B2C312 /* FAKFontAwesome.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKFontAwesome.h; path = FontAwesomeKit/FAKFontAwesome.h; sourceTree = "<group>"; };
+		C543356E90CDA7C95F62539ACEE0ABD5 /* libAMPopTip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMPopTip.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C560616DDF5273CF7C53EF72EA6ED45A /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
 		C9565C73D5D4BE79747E60DCF1557E71 /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
 		CB570A88EC0F3ED245C509F986EDAEF8 /* VBFDoubleSegment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VBFDoubleSegment.h; path = VBFPopFlatButton/VBFPopFlatButtonClasses/VBFDoubleSegment.h; sourceTree = "<group>"; };
 		CC2328C2FC7B709F6A02DD5CCFD63D7F /* UIColor+BFPaperColors-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIColor+BFPaperColors-Private.xcconfig"; sourceTree = "<group>"; };
+		CC834822DF55AB0B9F5AEEF4582AAA51 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		CCEC531EAE29BF7914FEE378459A8E2A /* FAKIcon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIcon.h; path = FontAwesomeKit/FAKIcon.h; sourceTree = "<group>"; };
+		D2957DC92DFF0196F3E3404144238CFB /* AMPopTip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMPopTip.xcconfig; sourceTree = "<group>"; };
 		D5CE48778301C24CD288B08DDA441605 /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
-		D7F876DB962CC0923A6571F52627907D /* FontAwesomeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FontAwesomeKit-dummy.m"; sourceTree = "<group>"; };
-		DDC905F08DE7E439FA82B84C6F40CD2D /* FontAwesomeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FontAwesomeKit.xcconfig; sourceTree = "<group>"; };
+		E25F18F882037061B798F739E2A00807 /* VBFPopFlatButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VBFPopFlatButton-prefix.pch"; sourceTree = "<group>"; };
 		E85E0983DBE882A8009D0F7EAB591B91 /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
 		E9778394A6C4C280F81EC67FE1B270B6 /* UIColor+BFPaperColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+BFPaperColors.m"; path = "UIColor+BFPaperColors/UIColor+BFPaperColors.m"; sourceTree = "<group>"; };
 		EB56BE02F1B0412A41C9D9834B04BC30 /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
 		EC10F21A5E230A911C2C2E5082CDAE4B /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
 		ECC48BF18D3BD01C21B65648709A45D6 /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
 		ED596D85957A49EC6092EC8EC38FCE49 /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
-		ED6E57DCDA390E5FC714620F2D4DC5B1 /* FAKIonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FAKIonIcons.h; path = FontAwesomeKit/FAKIonIcons.h; sourceTree = "<group>"; };
 		F0B4105C7EE2DA010EA4746E79138C7C /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
 		F3A985A006B0CCD0116D8FC53C4D1834 /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
 		F54B1AE39CAF0CA846C1C729B033E047 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
-		F5AC6E2DD587C65830468A15F418A5A2 /* pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.xcconfig; sourceTree = "<group>"; };
 		F7C8E81083B5C6062C80C376B3346DD2 /* Pods-MPagesPrototypeOne-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MPagesPrototypeOne-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F81E8633F1E784423FE8B9BE16D38981 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
 		F951019453DDA41067E2B70AA8E0EDD7 /* libVBFPopFlatButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVBFPopFlatButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C8344BE545D92A361BA468E84A14C9 /* VBFPopFlatButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VBFPopFlatButton.m; path = VBFPopFlatButton/VBFPopFlatButtonClasses/VBFPopFlatButton.m; sourceTree = "<group>"; };
-		FB017E2BCD9ED0E5468B8333BFE99FFD /* pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-prefix.pch"; sourceTree = "<group>"; };
-		FC0C5BAD6F46BA12665074BF867077F8 /* libBFPaperButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBFPaperButton.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC347D2124B34D9BB7DEF70F79C15102 /* BFPaperButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BFPaperButton.m; path = Classes/BFPaperButton.m; sourceTree = "<group>"; };
-		FFF1B73DBA54AED40B22ABBBC4985E11 /* VBFPopFlatButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VBFPopFlatButton-prefix.pch"; sourceTree = "<group>"; };
+		FAE451AC019B9D473886190A787A8C6A /* ionicons.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = ionicons.ttf; path = FontAwesomeKit/ionicons.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		04E3E60338493798D9E10DD63164D4D8 /* Frameworks */ = {
+		1D78748DC9A06BB50E94D9C50C81C52D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C461D880EDE1A1F0C81972A0A21F74DF /* Foundation.framework in Frameworks */,
+				EF0006D5F9D2E363E7AAB77406D1401E /* CoreText.framework in Frameworks */,
+				249CE7D36C495FEBF52FB3B3EBF527E5 /* Foundation.framework in Frameworks */,
+				28EE9C3DD7D58372F89DCE7AEE92E56F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74C0FE85E59B5EF5DDC61C316C9A81D6 /* Frameworks */ = {
+		46254C2A17B8D56EE3D88619B3AAE992 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA5688F93E9E844B46830CEB84A2F00B /* Foundation.framework in Frameworks */,
+				455BA49364029623E3AEB3B7722D529D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,13 +336,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0D688D71C5F2CFD7E4DD4463295B147 /* Frameworks */ = {
+		AFF9BE179BB99B62F6BADD991C25C03A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CEAEA4AD20E4F70090DEABDADB4FC82 /* CoreText.framework in Frameworks */,
-				08F4C2CBE3018B5412FDB7B69BCE7370 /* Foundation.framework in Frameworks */,
-				F9555FF7459394526278C79289552801 /* UIKit.framework in Frameworks */,
+				472E5B59EE5FAF1BFC1ADB0FA43A8B14 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +349,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				77A4AD5F4ED686492ADAFF84A866892C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4CE6125FDE1DB663392123BDB5859A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6630FC82D479DFFD74A8BEE23A4848CB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,14 +379,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A18956293FEF2DBE3B2944A3A6828C3 /* Zocial */ = {
+		036C06D412237B897DFB3F5C912B1B7F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AAD1BE544826CAA377B7321474C7BD15 /* FAKZocial.h */,
-				760DD8E1C85BE27BC14C921A94214EF8 /* FAKZocial.m */,
-				3785633EF7C9DC17284ACC39E3FF156A /* Resources */,
+				87092F8C58D37B9B765DF60A67C3DFDA /* FontAwesome.otf */,
 			);
-			name = Zocial;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		0D451A4A599FC279B4CD12EF2609F6D6 /* Pods-MPagesPrototypeOne */ = {
@@ -354,10 +392,10 @@
 			children = (
 				F7C8E81083B5C6062C80C376B3346DD2 /* Pods-MPagesPrototypeOne-acknowledgements.markdown */,
 				7D57D4B69FBEABBF57C158E4C84EB6B2 /* Pods-MPagesPrototypeOne-acknowledgements.plist */,
-				B2F1978EA3C594F82E521D2354633856 /* Pods-MPagesPrototypeOne-dummy.m */,
+				86B58848C1E3407DB71EE4FAC765B028 /* Pods-MPagesPrototypeOne-dummy.m */,
 				B7297C7E2AE556E4659DF8663803AED0 /* Pods-MPagesPrototypeOne-resources.sh */,
-				6F24EB79DC8A34B7B036187186856C83 /* Pods-MPagesPrototypeOne.debug.xcconfig */,
-				27D6717524F532BBF4DAE030FA99DBDD /* Pods-MPagesPrototypeOne.release.xcconfig */,
+				AC47891A38936C6301FA5ED557CF1C11 /* Pods-MPagesPrototypeOne.debug.xcconfig */,
+				A98B84CCAE0AC632AA3300038C71CC51 /* Pods-MPagesPrototypeOne.release.xcconfig */,
 			);
 			name = "Pods-MPagesPrototypeOne";
 			path = "Target Support Files/Pods-MPagesPrototypeOne";
@@ -371,130 +409,166 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		13031BA4C52839C7247098F07EAF4D15 /* FontAwesomeKit */ = {
+		196F443F9A252598133F88C5B0710FE3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3164F487D8AF2AA41C03FBC521A8238B /* FontAwesomeKit.h */,
-				17E9E7633226DCFD872CA874F99AE332 /* Core */,
-				5833E0628917856C38EEBC0379121A89 /* FontAwesome */,
-				E09A4A6ECF4A82B53AD0B690096A87D1 /* FoundationIcons */,
-				1EAE129FA4B4CBC9391346C17D8A19F4 /* IonIcons */,
-				74B92CCC59124278DF96E90749D9339B /* Support Files */,
-				0A18956293FEF2DBE3B2944A3A6828C3 /* Zocial */,
+				FAE451AC019B9D473886190A787A8C6A /* ionicons.ttf */,
 			);
-			path = FontAwesomeKit;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		14C8E487946178F1DDD8C2CEE46CBB13 /* UIColor+BFPaperColors */ = {
+		21AD4E4B195DFBF0514E3E666DFAE428 /* UIColor+BFPaperColors */ = {
 			isa = PBXGroup;
 			children = (
 				9D95B1810F81CC48789415060DA687CC /* UIColor+BFPaperColors.h */,
 				E9778394A6C4C280F81EC67FE1B270B6 /* UIColor+BFPaperColors.m */,
-				BBB1A8B5B0DB2EA533753D87BBEB935C /* Support Files */,
+				3B1B69CCD683AE42CF3F0CBF5C132392 /* Support Files */,
 			);
 			path = "UIColor+BFPaperColors";
 			sourceTree = "<group>";
 		};
-		17E9E7633226DCFD872CA874F99AE332 /* Core */ = {
+		24CEDD0CBE38F63EB2B0D5CA5C82A2B9 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				39CC3293A27EB89CF450A7E7F433E354 /* FAKIcon.h */,
-				C0B94C5F3E406AE7A80C3189519890E0 /* FAKIcon.m */,
+				CCEC531EAE29BF7914FEE378459A8E2A /* FAKIcon.h */,
+				5B531E733FAA7287CB98B43D7B75FBF9 /* FAKIcon.m */,
 			);
 			name = Core;
-			sourceTree = "<group>";
-		};
-		1EAE129FA4B4CBC9391346C17D8A19F4 /* IonIcons */ = {
-			isa = PBXGroup;
-			children = (
-				ED6E57DCDA390E5FC714620F2D4DC5B1 /* FAKIonIcons.h */,
-				4A558FD47EDC5B8BFDCC831F11F66FFD /* FAKIonIcons.m */,
-				735A39014B69065609346DC1E85A4E29 /* Resources */,
-			);
-			name = IonIcons;
-			sourceTree = "<group>";
-		};
-		2E453DC05AD86AF65F6461E65DDB69EE /* TAOverlay */ = {
-			isa = PBXGroup;
-			children = (
-				22076EB5908907E337026DFC77E4DB7C /* TAOverlay.h */,
-				025E41A8F7F527EC5A4E1E97C6182EEB /* TAOverlay.m */,
-				9F583E3DE1714C7480E3F1A9A779046B /* Resources */,
-				D24C67E30C7EBE4E66BA7804857BD58D /* Support Files */,
-			);
-			path = TAOverlay;
 			sourceTree = "<group>";
 		};
 		3324E9915E1012CE444A2C019FFB0B4C /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				B379B86BB3D1B682907B83710C2F59ED /* CoreText.framework */,
+				CC834822DF55AB0B9F5AEEF4582AAA51 /* CoreText.framework */,
 				8868E76B0C2B4B5B262EF75FD75DF4C9 /* Foundation.framework */,
-				6675308213F38DFE74994269D2BDBCF1 /* UIKit.framework */,
+				BB4F9691EEA399FADB415C36FBE561C0 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		3785633EF7C9DC17284ACC39E3FF156A /* Resources */ = {
+		332FE29821647EC3596E723F80900B28 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				953037625ED6222F3BAAB3EF82F6A800 /* zocial-regular-webfont.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		3B5B8B07244FA47B5AF29FD27EDA7C77 /* VBFPopFlatButton */ = {
-			isa = PBXGroup;
-			children = (
-				CB570A88EC0F3ED245C509F986EDAEF8 /* VBFDoubleSegment.h */,
-				625FF464F8072D7BF2CFD63C3414FBA6 /* VBFDoubleSegment.m */,
-				4E5349C1D79BE4791C3EBE081BCABB66 /* VBFPopFlatButton.h */,
-				F9C8344BE545D92A361BA468E84A14C9 /* VBFPopFlatButton.m */,
-				9CB274C3BFF3DEB074CD183D2C36E417 /* Support Files */,
-			);
-			path = VBFPopFlatButton;
-			sourceTree = "<group>";
-		};
-		50F8D33AB574253366D8A78EF9508121 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				81283FA27251046BE85900C33C518B37 /* foundation-icons.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		5807F9F69138DD7E9400ED9F4E421BE0 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				876CDF5BE3B337B785FFBE10126CA91A /* BFPaperButton */,
-				13031BA4C52839C7247098F07EAF4D15 /* FontAwesomeKit */,
-				2E453DC05AD86AF65F6461E65DDB69EE /* TAOverlay */,
-				14C8E487946178F1DDD8C2CEE46CBB13 /* UIColor+BFPaperColors */,
-				3B5B8B07244FA47B5AF29FD27EDA7C77 /* VBFPopFlatButton */,
-				6EA7799B20C18098B5FB9ACC7037FE1F /* pop */,
+				5613E1D0509500E533231FDD57D16B59 /* AMPopTip */,
+				48EB9399DE3FC674B4A2243EC25E26B8 /* BFPaperButton */,
+				653EE7353F1A63E1E05B3B4A4D2620F0 /* FontAwesomeKit */,
+				FADD938CBDFECAFF85EB01A9B3FF24AE /* TAOverlay */,
+				21AD4E4B195DFBF0514E3E666DFAE428 /* UIColor+BFPaperColors */,
+				C703687F1DBA82F37120FFB273E35989 /* VBFPopFlatButton */,
+				8F5C1C6F9F15640EF9BB8F32919FBE3D /* pop */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5833E0628917856C38EEBC0379121A89 /* FontAwesome */ = {
+		3438000C7C2E4E4D0DE204A3275EBAC4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				30A8454CB0CD9F5CF52831F8E046EEE5 /* FAKFontAwesome.h */,
-				9F38C4CCDD67BE7ADE020B9DF47BC8AE /* FAKFontAwesome.m */,
-				5B0529044E45300B1A7C04D6D2E15046 /* Resources */,
+				4282A035E62D87C68BD3698FBBEB76B4 /* BFPaperButton.xcconfig */,
+				941C8658550C5690FCF5891526F0428D /* BFPaperButton-Private.xcconfig */,
+				901D6E85F11A6DAFAC9058C63FD0D5BE /* BFPaperButton-dummy.m */,
+				AEDBEEF23657C733C5AC9F5D54C5ABD9 /* BFPaperButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BFPaperButton";
+			sourceTree = "<group>";
+		};
+		38DA10B3ECA12848224FB1CBBDB5248B /* FoundationIcons */ = {
+			isa = PBXGroup;
+			children = (
+				114CCB2EE6E1EAF0B8E7C963BCC73F5F /* FAKFoundationIcons.h */,
+				9BBCD95FE4BAC7D70B60549AD217811C /* FAKFoundationIcons.m */,
+				BFB121971DDD30F10AED9024795ED3CF /* Resources */,
+			);
+			name = FoundationIcons;
+			sourceTree = "<group>";
+		};
+		3B1B69CCD683AE42CF3F0CBF5C132392 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A54278E224D626B48F3B65421ECD576A /* UIColor+BFPaperColors.xcconfig */,
+				CC2328C2FC7B709F6A02DD5CCFD63D7F /* UIColor+BFPaperColors-Private.xcconfig */,
+				581D3DB5C367DB9FCB35180A4B4B2389 /* UIColor+BFPaperColors-dummy.m */,
+				A091E637DE910704F99F565D848E6D07 /* UIColor+BFPaperColors-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIColor+BFPaperColors";
+			sourceTree = "<group>";
+		};
+		46509BA3ABC59020BB2A5EF1C564682F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9927AA0E6DAA1689738D66A9B7DCB83D /* VBFPopFlatButton.xcconfig */,
+				3D6E5C59D44CA739072AA071BD2DD72E /* VBFPopFlatButton-Private.xcconfig */,
+				0C4A62CA91254A51EF35F0EA01664015 /* VBFPopFlatButton-dummy.m */,
+				E25F18F882037061B798F739E2A00807 /* VBFPopFlatButton-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VBFPopFlatButton";
+			sourceTree = "<group>";
+		};
+		48EB9399DE3FC674B4A2243EC25E26B8 /* BFPaperButton */ = {
+			isa = PBXGroup;
+			children = (
+				1B1009A156F68FF5F770F678447A3833 /* BFPaperButton.h */,
+				55C66FC282ACBE56D0DBF4D699725EEB /* BFPaperButton.m */,
+				3438000C7C2E4E4D0DE204A3275EBAC4 /* Support Files */,
+			);
+			path = BFPaperButton;
+			sourceTree = "<group>";
+		};
+		5613E1D0509500E533231FDD57D16B59 /* AMPopTip */ = {
+			isa = PBXGroup;
+			children = (
+				65CC56488FEB6F43E60DF6BBFE4FCAC2 /* AMPopTip.h */,
+				068C44321F2063E88B1D4DC1077A1798 /* AMPopTip.m */,
+				AC1B7E17F017EC5C69FB732032421385 /* AMPopTip+Animation.h */,
+				B5126A99A49FACA7814F543990696DAA /* AMPopTip+Animation.m */,
+				BFE9E6507EC7C1425C8C79C01DA197A1 /* AMPopTip+Draw.h */,
+				2D2E42C8F225568BD6E78D83B9D0DDAA /* AMPopTip+Draw.m */,
+				5FCE2C3B84B8C28A6D3EA448A6D6DD8D /* AMPopTip+Entrance.h */,
+				8382E5BF53BD6394B49C1E055FDD7317 /* AMPopTip+Entrance.m */,
+				9310B8D9CAE4B46BBEA370A8C235D42F /* AMPopTipDefaults.h */,
+				9687A6ED9339AC45F7589D9ADD01818D /* Support Files */,
+			);
+			path = AMPopTip;
+			sourceTree = "<group>";
+		};
+		653EE7353F1A63E1E05B3B4A4D2620F0 /* FontAwesomeKit */ = {
+			isa = PBXGroup;
+			children = (
+				8AA23207E7F98C986BA8065743ED1B3E /* FontAwesomeKit.h */,
+				24CEDD0CBE38F63EB2B0D5CA5C82A2B9 /* Core */,
+				6C3E4A8AFCC80487E8357D83F1EA4CF3 /* FontAwesome */,
+				38DA10B3ECA12848224FB1CBBDB5248B /* FoundationIcons */,
+				9B776B61381CCBCB45A10189DCE354EA /* IonIcons */,
+				CE524447A7EB7D249433D92E70427812 /* Support Files */,
+				91D5F3C62450A8E0D33B9F9269C709FE /* Zocial */,
+			);
+			path = FontAwesomeKit;
+			sourceTree = "<group>";
+		};
+		6C3E4A8AFCC80487E8357D83F1EA4CF3 /* FontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				C371066FA090D80E07596CC073B2C312 /* FAKFontAwesome.h */,
+				25CD95E0787AC433AC9889075CB433D1 /* FAKFontAwesome.m */,
+				036C06D412237B897DFB3F5C912B1B7F /* Resources */,
 			);
 			name = FontAwesome;
 			sourceTree = "<group>";
 		};
-		5B0529044E45300B1A7C04D6D2E15046 /* Resources */ = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				AC70B57D34D597CE018F038780D3B853 /* FontAwesome.otf */,
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				332FE29821647EC3596E723F80900B28 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				AE579AB33159C742A881F45831079C48 /* Targets Support Files */,
 			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
-		6EA7799B20C18098B5FB9ACC7037FE1F /* pop */ = {
+		8F5C1C6F9F15640EF9BB8F32919FBE3D /* pop */ = {
 			isa = PBXGroup;
 			children = (
 				C091E831068E3E504A40AC6932B39C87 /* FloatConversion.h */,
@@ -548,70 +622,41 @@
 				35574BADA6CDEA944F089CBC021F01AA /* TransformationMatrix.cpp */,
 				2E056FF5C4EC38A55B45FB52F395D72E /* TransformationMatrix.h */,
 				96015F1C746803D9318614B277F71BCB /* UnitBezier.h */,
-				F6CB0956AC53F82180D0F18E011252D0 /* Support Files */,
+				EADF5D206EC533A2F91F2B403B4D4324 /* Support Files */,
 			);
 			path = pop;
 			sourceTree = "<group>";
 		};
-		735A39014B69065609346DC1E85A4E29 /* Resources */ = {
+		91D5F3C62450A8E0D33B9F9269C709FE /* Zocial */ = {
 			isa = PBXGroup;
 			children = (
-				56D03CD1D09C1414A4939AF08CFA9D8C /* ionicons.ttf */,
+				48BAE9F4F03067EFB44115D26DC28A23 /* FAKZocial.h */,
+				782D93258F09348471003065984ED529 /* FAKZocial.m */,
+				BBF6CE3FA0057E0EEFBA8972673927BD /* Resources */,
 			);
-			name = Resources;
+			name = Zocial;
 			sourceTree = "<group>";
 		};
-		74B92CCC59124278DF96E90749D9339B /* Support Files */ = {
+		9687A6ED9339AC45F7589D9ADD01818D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DDC905F08DE7E439FA82B84C6F40CD2D /* FontAwesomeKit.xcconfig */,
-				42399F9C783B1490E612EA0A6C727882 /* FontAwesomeKit-Private.xcconfig */,
-				D7F876DB962CC0923A6571F52627907D /* FontAwesomeKit-dummy.m */,
-				86852B7192FB2D7B06690649FE0ECB31 /* FontAwesomeKit-prefix.pch */,
+				D2957DC92DFF0196F3E3404144238CFB /* AMPopTip.xcconfig */,
+				676B17ED1FC7A57D651932E264A03815 /* AMPopTip-Private.xcconfig */,
+				4430AA973B284371D79C404435C14960 /* AMPopTip-dummy.m */,
+				101ABC37633FC5F5B7A5B1BED32E699A /* AMPopTip-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FontAwesomeKit";
+			path = "../Target Support Files/AMPopTip";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		9B776B61381CCBCB45A10189DCE354EA /* IonIcons */ = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				5807F9F69138DD7E9400ED9F4E421BE0 /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				AE579AB33159C742A881F45831079C48 /* Targets Support Files */,
+				47B32D6A6CF5747A0EDCC0E4B12A6BF8 /* FAKIonIcons.h */,
+				BD44C8D663AEDD6FA8CF4C472D899704 /* FAKIonIcons.m */,
+				196F443F9A252598133F88C5B0710FE3 /* Resources */,
 			);
-			sourceTree = "<group>";
-		};
-		876CDF5BE3B337B785FFBE10126CA91A /* BFPaperButton */ = {
-			isa = PBXGroup;
-			children = (
-				319F9541A39484791EE4F2D980416BB6 /* BFPaperButton.h */,
-				FC347D2124B34D9BB7DEF70F79C15102 /* BFPaperButton.m */,
-				B6F2F9F95E29A5E26CBCF4BDED7F8138 /* Support Files */,
-			);
-			path = BFPaperButton;
-			sourceTree = "<group>";
-		};
-		9CB274C3BFF3DEB074CD183D2C36E417 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				40370571678F4AD718F8F3AADDF2000F /* VBFPopFlatButton.xcconfig */,
-				3D6E5C59D44CA739072AA071BD2DD72E /* VBFPopFlatButton-Private.xcconfig */,
-				0C4A62CA91254A51EF35F0EA01664015 /* VBFPopFlatButton-dummy.m */,
-				FFF1B73DBA54AED40B22ABBBC4985E11 /* VBFPopFlatButton-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/VBFPopFlatButton";
-			sourceTree = "<group>";
-		};
-		9F583E3DE1714C7480E3F1A9A779046B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2CF12EE445C3A53D89CC71C55091EE76 /* TAOverlay.bundle */,
-			);
-			name = Resources;
+			name = IonIcons;
 			sourceTree = "<group>";
 		};
 		AE579AB33159C742A881F45831079C48 /* Targets Support Files */ = {
@@ -622,36 +667,41 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B6F2F9F95E29A5E26CBCF4BDED7F8138 /* Support Files */ = {
+		BBF6CE3FA0057E0EEFBA8972673927BD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AF867573C4289935DCA0FC89D424244B /* BFPaperButton.xcconfig */,
-				9D63B8A96E0AC23839791A7BF6251755 /* BFPaperButton-Private.xcconfig */,
-				8FEB2364374429DA06A14B9618A6D82C /* BFPaperButton-dummy.m */,
-				8B2DB1D0F39994FEE96066DC014CFC07 /* BFPaperButton-prefix.pch */,
+				63D857C480004A0726F71673AEC55A69 /* zocial-regular-webfont.ttf */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/BFPaperButton";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		BBB1A8B5B0DB2EA533753D87BBEB935C /* Support Files */ = {
+		BFB121971DDD30F10AED9024795ED3CF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3D8FC5E75AA3FA6FC7B4EA33D8139938 /* UIColor+BFPaperColors.xcconfig */,
-				CC2328C2FC7B709F6A02DD5CCFD63D7F /* UIColor+BFPaperColors-Private.xcconfig */,
-				581D3DB5C367DB9FCB35180A4B4B2389 /* UIColor+BFPaperColors-dummy.m */,
-				1CEF988E0EBC5CA7D7CB589D82D93946 /* UIColor+BFPaperColors-prefix.pch */,
+				73011F3563381E84417C89918E4922C8 /* foundation-icons.ttf */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/UIColor+BFPaperColors";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C703687F1DBA82F37120FFB273E35989 /* VBFPopFlatButton */ = {
+			isa = PBXGroup;
+			children = (
+				CB570A88EC0F3ED245C509F986EDAEF8 /* VBFDoubleSegment.h */,
+				625FF464F8072D7BF2CFD63C3414FBA6 /* VBFDoubleSegment.m */,
+				4E5349C1D79BE4791C3EBE081BCABB66 /* VBFPopFlatButton.h */,
+				F9C8344BE545D92A361BA468E84A14C9 /* VBFPopFlatButton.m */,
+				46509BA3ABC59020BB2A5EF1C564682F /* Support Files */,
+			);
+			path = VBFPopFlatButton;
 			sourceTree = "<group>";
 		};
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC0C5BAD6F46BA12665074BF867077F8 /* libBFPaperButton.a */,
-				BF9C3328B1F251FA3D1E1BDAF670BC7B /* libFontAwesomeKit.a */,
-				AA2134A6040ED37FC9E128C568B3790B /* libPods-MPagesPrototypeOne.a */,
+				C543356E90CDA7C95F62539ACEE0ABD5 /* libAMPopTip.a */,
+				8054CFE161F39219F255D2FF7ED25C7D /* libBFPaperButton.a */,
+				78F842FD408DAAF24D2F8CBB229835B4 /* libFontAwesomeKit.a */,
+				3D973E086F754114F630DFB368BB98F6 /* libPods-MPagesPrototypeOne.a */,
 				7A904B5323F1BC687117494E36123197 /* libTAOverlay.a */,
 				B0F755FD98B717977E4405EE95A9721D /* libUIColor+BFPaperColors.a */,
 				F951019453DDA41067E2B70AA8E0EDD7 /* libVBFPopFlatButton.a */,
@@ -660,38 +710,59 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D24C67E30C7EBE4E66BA7804857BD58D /* Support Files */ = {
+		CE524447A7EB7D249433D92E70427812 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				22EC8FF4EE47CC8CD368275874436286 /* TAOverlay.xcconfig */,
+				82B6FC35F59686515BFD73505E94729B /* FontAwesomeKit.xcconfig */,
+				BB7A72280E32E9D6E1C1B8DA54C052BD /* FontAwesomeKit-Private.xcconfig */,
+				39D05512F9AB00EC22372AEB9A0EE5DE /* FontAwesomeKit-dummy.m */,
+				3C66BBAA56C106759B8D713A2497070B /* FontAwesomeKit-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FontAwesomeKit";
+			sourceTree = "<group>";
+		};
+		E99B253F963D6386DDCCF403F154547E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3701854FF3E10D8F3F12F30A70732D8F /* TAOverlay.xcconfig */,
 				1B354E398AF9F182E7D7681A9F5FF8F1 /* TAOverlay-Private.xcconfig */,
 				860556C6A6F9E0C2588541B6F6DF90F0 /* TAOverlay-dummy.m */,
-				5CA0ABAAD62B755750F0F2C9C3FE33D0 /* TAOverlay-prefix.pch */,
+				8422532E86244C075CD48963968FE59A /* TAOverlay-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/TAOverlay";
 			sourceTree = "<group>";
 		};
-		E09A4A6ECF4A82B53AD0B690096A87D1 /* FoundationIcons */ = {
+		EADF5D206EC533A2F91F2B403B4D4324 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				951B6E029B718D6D4245579D66E4509B /* FAKFoundationIcons.h */,
-				486EC295ADBBDC103954D70EF5EA6A89 /* FAKFoundationIcons.m */,
-				50F8D33AB574253366D8A78EF9508121 /* Resources */,
-			);
-			name = FoundationIcons;
-			sourceTree = "<group>";
-		};
-		F6CB0956AC53F82180D0F18E011252D0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5AC6E2DD587C65830468A15F418A5A2 /* pop.xcconfig */,
+				7B350C9FD49320070F9EBE93F2635BEE /* pop.xcconfig */,
 				5AABEAB40B785094AA4B3680A82E2F3B /* pop-Private.xcconfig */,
 				59B3FD41DEC22C5891C9B83C27BC25E0 /* pop-dummy.m */,
-				FB017E2BCD9ED0E5468B8333BFE99FFD /* pop-prefix.pch */,
+				5E23B9500F7E099AF0ED7DEF8B94B933 /* pop-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/pop";
+			sourceTree = "<group>";
+		};
+		F46CB5E4998B2528FF1B8B4524204B1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C016B03B9022AD9508038830D4C4AE9E /* TAOverlay.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FADD938CBDFECAFF85EB01A9B3FF24AE /* TAOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				22076EB5908907E337026DFC77E4DB7C /* TAOverlay.h */,
+				025E41A8F7F527EC5A4E1E97C6182EEB /* TAOverlay.m */,
+				F46CB5E4998B2528FF1B8B4524204B1B /* Resources */,
+				E99B253F963D6386DDCCF403F154547E /* Support Files */,
+			);
+			path = TAOverlay;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -754,24 +825,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4C1A400092FC1BC744BF09791D97BE4 /* Headers */ = {
+		B62EE8459172FE54B3F2C847BB17FE2B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				310A435025788221ED681890DAFE04D4 /* BFPaperButton.h in Headers */,
+				19E0AB237AFC8BA739B0EE97FE0E68CB /* BFPaperButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9A361362833BA8BADFDD3E3B515C893 /* Headers */ = {
+		DF1B5EAD04B5F5BAA4FBA70E9306DFC1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C2D2F4AAC4B819469C625F7AB868C6E /* FAKFontAwesome.h in Headers */,
-				FB114F877B11304535F544499122582E /* FAKFoundationIcons.h in Headers */,
-				E15561FF3018A2CA2E5F4D5D9B3EFF78 /* FAKIcon.h in Headers */,
-				D76100BCC955DC25076F46E887398C44 /* FAKIonIcons.h in Headers */,
-				AD2CB2F7C35676DA511334DCE1AA2C84 /* FAKZocial.h in Headers */,
-				BF64FDEF7A0B3CCE6E8FF9D24E0DA601 /* FontAwesomeKit.h in Headers */,
+				4A3F5820063C1971019AB3A1295F6C11 /* FAKFontAwesome.h in Headers */,
+				84E693484E44EA6B3358D437A342EAF4 /* FAKFoundationIcons.h in Headers */,
+				48F1042090A15AA9988DFA20791AA8FF /* FAKIcon.h in Headers */,
+				B39BABF6424736B6CA76F553359A6988 /* FAKIonIcons.h in Headers */,
+				18DAD66AE2524F113D2D3057C7F8BBC5 /* FAKZocial.h in Headers */,
+				94828B5EECC3F9BF3155EF16C4E568A8 /* FontAwesomeKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -780,6 +851,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D2802644E975E0F4464808FE37C4076 /* TAOverlay.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED430857036B5380CA6B2F849CCAC3C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467626CFC3BE2D0F160DC2DC65766D57 /* AMPopTip+Animation.h in Headers */,
+				512A438D62C367E974FAAF23A2EA2669 /* AMPopTip+Draw.h in Headers */,
+				F4A4F24FF91126B7169DCB5CF73E6EA3 /* AMPopTip+Entrance.h in Headers */,
+				F8AC8CD67A3173E07546FE774B9265AA /* AMPopTip.h in Headers */,
+				529553D32C14B92FD5A4510F5BF6F9C2 /* AMPopTipDefaults.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -803,26 +886,56 @@
 			productReference = 7A904B5323F1BC687117494E36123197 /* libTAOverlay.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		1D55E7C11103BC232C03EB23B4DC9C53 /* Pods-MPagesPrototypeOne */ = {
+		302266D8A22B039A32340F5660A8B736 /* AMPopTip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A8DA47879FB9B2FCBC511481AEA9C8A /* Build configuration list for PBXNativeTarget "Pods-MPagesPrototypeOne" */;
+			buildConfigurationList = C9C147A6AB01383BCAA0E9309AD46038 /* Build configuration list for PBXNativeTarget "AMPopTip" */;
 			buildPhases = (
-				61B2C9901552BC02AEAA0B74262455C6 /* Sources */,
-				04E3E60338493798D9E10DD63164D4D8 /* Frameworks */,
+				04078C3D184253DD72E6E23A90F91204 /* Sources */,
+				46254C2A17B8D56EE3D88619B3AAE992 /* Frameworks */,
+				ED430857036B5380CA6B2F849CCAC3C2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6B9A6D519948E126CE18F4D719AFFC81 /* PBXTargetDependency */,
-				6839875A5002540355ED8D09EC0711E5 /* PBXTargetDependency */,
-				81256B543CB95A131CCFC5E2044CDF79 /* PBXTargetDependency */,
-				16D843755748D97ECA819ECA8693C5C0 /* PBXTargetDependency */,
-				03B7BB0830B87E65D9CF94401983BF93 /* PBXTargetDependency */,
-				A13E1D01F2D8316B039C093656E0C3A2 /* PBXTargetDependency */,
 			);
-			name = "Pods-MPagesPrototypeOne";
-			productName = "Pods-MPagesPrototypeOne";
-			productReference = AA2134A6040ED37FC9E128C568B3790B /* libPods-MPagesPrototypeOne.a */;
+			name = AMPopTip;
+			productName = AMPopTip;
+			productReference = C543356E90CDA7C95F62539ACEE0ABD5 /* libAMPopTip.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3AB67457E1A77198B29A1ADBCF056B26 /* FontAwesomeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAC55C610F8E64A61721574F30815DF /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */;
+			buildPhases = (
+				FD8269F210DC80FD52BCB23F916AE499 /* Sources */,
+				1D78748DC9A06BB50E94D9C50C81C52D /* Frameworks */,
+				DF1B5EAD04B5F5BAA4FBA70E9306DFC1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontAwesomeKit;
+			productName = FontAwesomeKit;
+			productReference = 78F842FD408DAAF24D2F8CBB229835B4 /* libFontAwesomeKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4655C356FFE3556BCCDA1FF5781E2E9C /* BFPaperButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B63C15DBBF2807241CF6F88EDF62F8 /* Build configuration list for PBXNativeTarget "BFPaperButton" */;
+			buildPhases = (
+				362B3F24DF5E4CA9BCBD356A7A92D33F /* Sources */,
+				AFF9BE179BB99B62F6BADD991C25C03A /* Frameworks */,
+				B62EE8459172FE54B3F2C847BB17FE2B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16835E3899932FA8E389713E8E02632F /* PBXTargetDependency */,
+			);
+			name = BFPaperButton;
+			productName = BFPaperButton;
+			productReference = 8054CFE161F39219F255D2FF7ED25C7D /* libBFPaperButton.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		47C800E42623009B7192B025B3DD25A1 /* pop */ = {
@@ -842,41 +955,6 @@
 			productReference = A42EBF4FDD2D5AA16FCD758564D29ABC /* libpop.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		8DA233329C2707DF3BCBBD8F8B3E0365 /* BFPaperButton */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4BB762D7949F94CECFE4D3C3CD209A66 /* Build configuration list for PBXNativeTarget "BFPaperButton" */;
-			buildPhases = (
-				269D56AA3611EC13334120EAAAF31C43 /* Sources */,
-				74C0FE85E59B5EF5DDC61C316C9A81D6 /* Frameworks */,
-				B4C1A400092FC1BC744BF09791D97BE4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B1594E0F45347136A37C03D3896116C8 /* PBXTargetDependency */,
-			);
-			name = BFPaperButton;
-			productName = BFPaperButton;
-			productReference = FC0C5BAD6F46BA12665074BF867077F8 /* libBFPaperButton.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		988A672CA03E1F5C68B104712DA59B48 /* FontAwesomeKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0D33643EF1F46B8CA1BB3803D3ABE98D /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */;
-			buildPhases = (
-				A8269E90CE1B8347497AFF4D24B36470 /* Sources */,
-				A0D688D71C5F2CFD7E4DD4463295B147 /* Frameworks */,
-				C9A361362833BA8BADFDD3E3B515C893 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FontAwesomeKit;
-			productName = FontAwesomeKit;
-			productReference = BF9C3328B1F251FA3D1E1BDAF670BC7B /* libFontAwesomeKit.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		9C2216F9F97112EA6E7E00FA6082C297 /* VBFPopFlatButton */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C3645DD03F93F4D6B373AD60F0CB079 /* Build configuration list for PBXNativeTarget "VBFPopFlatButton" */;
@@ -888,11 +966,34 @@
 			buildRules = (
 			);
 			dependencies = (
-				1CDA840032FBF4225A7521B93FE780E8 /* PBXTargetDependency */,
+				D924F1E8CD69059ADFA59CE9A99A3323 /* PBXTargetDependency */,
 			);
 			name = VBFPopFlatButton;
 			productName = VBFPopFlatButton;
 			productReference = F951019453DDA41067E2B70AA8E0EDD7 /* libVBFPopFlatButton.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A6DB0BB3BAEF9980232F9947335C9647 /* Pods-MPagesPrototypeOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA0F34FE20AB48AF6C3E2EA71D0C8BD8 /* Build configuration list for PBXNativeTarget "Pods-MPagesPrototypeOne" */;
+			buildPhases = (
+				7CFB7A91E854E0B7D58FFDDBBAAD9E0A /* Sources */,
+				D4CE6125FDE1DB663392123BDB5859A3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				559723C6AB6A98523DB1383A8217EC42 /* PBXTargetDependency */,
+				4496C1449DA77D59B260E31F024BE6ED /* PBXTargetDependency */,
+				5FE6AB0D413CDA27513D3235A550DF80 /* PBXTargetDependency */,
+				A92C6AF8401CB5ABAC825340FACEBBAF /* PBXTargetDependency */,
+				3C10620E7008DB6A4041FDD73DA027B8 /* PBXTargetDependency */,
+				0BE7D9ED1776D6E57D989FFEA48FE078 /* PBXTargetDependency */,
+				0CC996DEA3148C5CAF389243D1F8A99E /* PBXTargetDependency */,
+			);
+			name = "Pods-MPagesPrototypeOne";
+			productName = "Pods-MPagesPrototypeOne";
+			productReference = 3D973E086F754114F630DFB368BB98F6 /* libPods-MPagesPrototypeOne.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		F43885B233F4B9CCC43E1736A5087DD7 /* UIColor+BFPaperColors */ = {
@@ -933,9 +1034,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8DA233329C2707DF3BCBBD8F8B3E0365 /* BFPaperButton */,
-				988A672CA03E1F5C68B104712DA59B48 /* FontAwesomeKit */,
-				1D55E7C11103BC232C03EB23B4DC9C53 /* Pods-MPagesPrototypeOne */,
+				302266D8A22B039A32340F5660A8B736 /* AMPopTip */,
+				4655C356FFE3556BCCDA1FF5781E2E9C /* BFPaperButton */,
+				3AB67457E1A77198B29A1ADBCF056B26 /* FontAwesomeKit */,
+				A6DB0BB3BAEF9980232F9947335C9647 /* Pods-MPagesPrototypeOne */,
 				1512126BD78F6B7D346D1E0DAEECB9DC /* TAOverlay */,
 				F43885B233F4B9CCC43E1736A5087DD7 /* UIColor+BFPaperColors */,
 				9C2216F9F97112EA6E7E00FA6082C297 /* VBFPopFlatButton */,
@@ -945,6 +1047,18 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04078C3D184253DD72E6E23A90F91204 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F044D89D35DE667E4F7A6C3A7B0A94 /* AMPopTip+Animation.m in Sources */,
+				9273592416A695E16CC4F46F6260DD60 /* AMPopTip+Draw.m in Sources */,
+				C0ED943D93B87C7530ED33A8BAD51EE5 /* AMPopTip+Entrance.m in Sources */,
+				1CD839F2897BA54EBC18841DD5413A7E /* AMPopTip-dummy.m in Sources */,
+				7A53BC01820EEE5ED7AABADF6CED5952 /* AMPopTip.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0EA1208F3B72AAF8A7683795C5C61072 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -971,12 +1085,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		269D56AA3611EC13334120EAAAF31C43 /* Sources */ = {
+		362B3F24DF5E4CA9BCBD356A7A92D33F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0452E355C7813F39D1B0F60C73E2B7E /* BFPaperButton-dummy.m in Sources */,
-				D732178534AD1A4B2A27FCDF08D3ACC6 /* BFPaperButton.m in Sources */,
+				E29602435D9658C20909A26C7A9D5A81 /* BFPaperButton-dummy.m in Sources */,
+				CF907736FAE1778DE95D0C2A6A6DC2EA /* BFPaperButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -999,24 +1113,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61B2C9901552BC02AEAA0B74262455C6 /* Sources */ = {
+		7CFB7A91E854E0B7D58FFDDBBAAD9E0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E4B16023D919830F75B8C0A202BCBC0 /* Pods-MPagesPrototypeOne-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8269E90CE1B8347497AFF4D24B36470 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				460806DA2A531D68086A38E0D18A8372 /* FAKFontAwesome.m in Sources */,
-				03A7AF44BA9FF8FAE990406252B8D7F3 /* FAKFoundationIcons.m in Sources */,
-				7636ECA129BB3F093083FBE0B9EBAFE6 /* FAKIcon.m in Sources */,
-				9750E5D74797C69C637877095E09DFB5 /* FAKIonIcons.m in Sources */,
-				7A7F1894C90F9ED7EC14D5A2AEABBE16 /* FAKZocial.m in Sources */,
-				C42027C446E536EA11054B8E9F4B7C2D /* FontAwesomeKit-dummy.m in Sources */,
+				CFF18643599EDDFDBA6D3572235079F7 /* Pods-MPagesPrototypeOne-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1029,63 +1130,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FD8269F210DC80FD52BCB23F916AE499 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708039C0EB5D28C0AADC53DCACFF0538 /* FAKFontAwesome.m in Sources */,
+				12549AB07D78BC898590077F06630C2C /* FAKFoundationIcons.m in Sources */,
+				A389F237FF144FB8F5D057F7C7B7AAF1 /* FAKIcon.m in Sources */,
+				12F494BA042A1126C0C2E90F40C07740 /* FAKIonIcons.m in Sources */,
+				30048DBA7AEA6CF72D4DE3DD72992358 /* FAKZocial.m in Sources */,
+				50991581F19BF94AD9D2315AC24B7F67 /* FontAwesomeKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		03B7BB0830B87E65D9CF94401983BF93 /* PBXTargetDependency */ = {
+		0BE7D9ED1776D6E57D989FFEA48FE078 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = VBFPopFlatButton;
 			target = 9C2216F9F97112EA6E7E00FA6082C297 /* VBFPopFlatButton */;
-			targetProxy = FF50F0E5ACF72797253BDA4B4AEA5C91 /* PBXContainerItemProxy */;
+			targetProxy = 5BC0328DF19AF0E90BE67919F311C530 /* PBXContainerItemProxy */;
 		};
-		16D843755748D97ECA819ECA8693C5C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "UIColor+BFPaperColors";
-			target = F43885B233F4B9CCC43E1736A5087DD7 /* UIColor+BFPaperColors */;
-			targetProxy = B722F47711B7162711A6ADC1D5213F0C /* PBXContainerItemProxy */;
-		};
-		1CDA840032FBF4225A7521B93FE780E8 /* PBXTargetDependency */ = {
+		0CC996DEA3148C5CAF389243D1F8A99E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = pop;
 			target = 47C800E42623009B7192B025B3DD25A1 /* pop */;
-			targetProxy = 0FA6E6FEC967D0659AF1A28815457AD5 /* PBXContainerItemProxy */;
+			targetProxy = EB7826D610AAFB062121AE8533DB58A6 /* PBXContainerItemProxy */;
 		};
-		6839875A5002540355ED8D09EC0711E5 /* PBXTargetDependency */ = {
+		16835E3899932FA8E389713E8E02632F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = FontAwesomeKit;
-			target = 988A672CA03E1F5C68B104712DA59B48 /* FontAwesomeKit */;
-			targetProxy = BEF7E0BE48FA2E3B4A97D26ACA4A5840 /* PBXContainerItemProxy */;
+			name = "UIColor+BFPaperColors";
+			target = F43885B233F4B9CCC43E1736A5087DD7 /* UIColor+BFPaperColors */;
+			targetProxy = 26BAA0F0B98B8CCB9512A2EDED87755D /* PBXContainerItemProxy */;
 		};
-		6B9A6D519948E126CE18F4D719AFFC81 /* PBXTargetDependency */ = {
+		3C10620E7008DB6A4041FDD73DA027B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIColor+BFPaperColors";
+			target = F43885B233F4B9CCC43E1736A5087DD7 /* UIColor+BFPaperColors */;
+			targetProxy = 87F831E9ED1BADE250A1C6AC579AB0C2 /* PBXContainerItemProxy */;
+		};
+		4496C1449DA77D59B260E31F024BE6ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BFPaperButton;
-			target = 8DA233329C2707DF3BCBBD8F8B3E0365 /* BFPaperButton */;
-			targetProxy = D5E0133811E3EA7EA70485AF0E9B7C6F /* PBXContainerItemProxy */;
+			target = 4655C356FFE3556BCCDA1FF5781E2E9C /* BFPaperButton */;
+			targetProxy = F0E269C69290215C72D406B0476CDB19 /* PBXContainerItemProxy */;
 		};
-		81256B543CB95A131CCFC5E2044CDF79 /* PBXTargetDependency */ = {
+		559723C6AB6A98523DB1383A8217EC42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMPopTip;
+			target = 302266D8A22B039A32340F5660A8B736 /* AMPopTip */;
+			targetProxy = C9E8C6706B567177C88A7BC108D44E49 /* PBXContainerItemProxy */;
+		};
+		5FE6AB0D413CDA27513D3235A550DF80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FontAwesomeKit;
+			target = 3AB67457E1A77198B29A1ADBCF056B26 /* FontAwesomeKit */;
+			targetProxy = 4B939B2B443BE3B013EB941E4567A11F /* PBXContainerItemProxy */;
+		};
+		A92C6AF8401CB5ABAC825340FACEBBAF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TAOverlay;
 			target = 1512126BD78F6B7D346D1E0DAEECB9DC /* TAOverlay */;
-			targetProxy = 8E040CBDEADCEC7EEDE8D4A094EBAEA9 /* PBXContainerItemProxy */;
+			targetProxy = D9D304351CA51A3107B0F1FDF1DF29A9 /* PBXContainerItemProxy */;
 		};
-		A13E1D01F2D8316B039C093656E0C3A2 /* PBXTargetDependency */ = {
+		D924F1E8CD69059ADFA59CE9A99A3323 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = pop;
 			target = 47C800E42623009B7192B025B3DD25A1 /* pop */;
-			targetProxy = FADFDEC7B03ABE5D5159A500D84E868A /* PBXContainerItemProxy */;
-		};
-		B1594E0F45347136A37C03D3896116C8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "UIColor+BFPaperColors";
-			target = F43885B233F4B9CCC43E1736A5087DD7 /* UIColor+BFPaperColors */;
-			targetProxy = 818AF1929CEC896E4B853C7A012F5289 /* PBXContainerItemProxy */;
+			targetProxy = 1EB8D9C85F45BD715633FDC02B7300DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0C878C8FC59A10046980F20AEE61291B /* Release */ = {
+		27BE396D7DB44E3FB07A07D59711E5C1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42399F9C783B1490E612EA0A6C727882 /* FontAwesomeKit-Private.xcconfig */;
+			baseConfigurationReference = BB7A72280E32E9D6E1C1B8DA54C052BD /* FontAwesomeKit-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
@@ -1115,6 +1235,22 @@
 			};
 			name = Debug;
 		};
+		41481731A9D5849318A7F64C76CBE762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941C8658550C5690FCF5891526F0428D /* BFPaperButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BFPaperButton/BFPaperButton-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		4A67341D138C791537C8C538537A3DE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3D6E5C59D44CA739072AA071BD2DD72E /* VBFPopFlatButton-Private.xcconfig */;
@@ -1130,6 +1266,22 @@
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
+		};
+		511A157F60AEB5FD193958A35FEB0583 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB7A72280E32E9D6E1C1B8DA54C052BD /* FontAwesomeKit-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
 		};
 		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1186,13 +1338,29 @@
 			};
 			name = Release;
 		};
-		66B828B589344685B5037C58DEADA1CD /* Debug */ = {
+		64616AECE075B9B57AA797C16CA2BEF9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F24EB79DC8A34B7B036187186856C83 /* Pods-MPagesPrototypeOne.debug.xcconfig */;
+			baseConfigurationReference = 676B17ED1FC7A57D651932E264A03815 /* AMPopTip-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMPopTip/AMPopTip-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6F66A18F9791E9416C362D31712EE316 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98B84CCAE0AC632AA3300038C71CC51 /* Pods-MPagesPrototypeOne.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1200,7 +1368,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1252,21 +1420,21 @@
 			};
 			name = Release;
 		};
-		90A97C6C96E5C9B8FCF3085E14909BE8 /* Release */ = {
+		9F662D9687E825979EF4F593EBBE88A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27D6717524F532BBF4DAE030FA99DBDD /* Pods-MPagesPrototypeOne.release.xcconfig */;
+			baseConfigurationReference = 676B17ED1FC7A57D651932E264A03815 /* AMPopTip-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AMPopTip/AMPopTip-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		A0BDD2F8D1258474D180F191A69C1E41 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1284,22 +1452,6 @@
 			};
 			name = Debug;
 		};
-		A649FEA32C6305728A175896FAFA2970 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D63B8A96E0AC23839791A7BF6251755 /* BFPaperButton-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/BFPaperButton/BFPaperButton-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 		A77923768075AC6E64747681C3684237 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC2328C2FC7B709F6A02DD5CCFD63D7F /* UIColor+BFPaperColors-Private.xcconfig */;
@@ -1316,9 +1468,25 @@
 			};
 			name = Release;
 		};
-		BA4A3B6A769CE53256BE12698A864523 /* Debug */ = {
+		A97BCE4ABC9B6E386D91D5D10EBB6822 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D63B8A96E0AC23839791A7BF6251755 /* BFPaperButton-Private.xcconfig */;
+			baseConfigurationReference = AC47891A38936C6301FA5ED557CF1C11 /* Pods-MPagesPrototypeOne.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D6F58F41BB8DE767816622C00ED7E640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941C8658550C5690FCF5891526F0428D /* BFPaperButton-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/BFPaperButton/BFPaperButton-prefix.pch";
@@ -1348,22 +1516,6 @@
 			};
 			name = Debug;
 		};
-		F0FCE3C766E12FA51C09F684873D05F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42399F9C783B1490E612EA0A6C727882 /* FontAwesomeKit-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FontAwesomeKit/FontAwesomeKit-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 		F796D5EB52896BFFE7F5CEA20DE49179 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1B354E398AF9F182E7D7681A9F5FF8F1 /* TAOverlay-Private.xcconfig */;
@@ -1383,29 +1535,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A8DA47879FB9B2FCBC511481AEA9C8A /* Build configuration list for PBXNativeTarget "Pods-MPagesPrototypeOne" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				66B828B589344685B5037C58DEADA1CD /* Debug */,
-				90A97C6C96E5C9B8FCF3085E14909BE8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0D33643EF1F46B8CA1BB3803D3ABE98D /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F0FCE3C766E12FA51C09F684873D05F4 /* Debug */,
-				0C878C8FC59A10046980F20AEE61291B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
 				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B63C15DBBF2807241CF6F88EDF62F8 /* Build configuration list for PBXNativeTarget "BFPaperButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6F58F41BB8DE767816622C00ED7E640 /* Debug */,
+				41481731A9D5849318A7F64C76CBE762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1419,11 +1562,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4BB762D7949F94CECFE4D3C3CD209A66 /* Build configuration list for PBXNativeTarget "BFPaperButton" */ = {
+		5DAC55C610F8E64A61721574F30815DF /* Build configuration list for PBXNativeTarget "FontAwesomeKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA4A3B6A769CE53256BE12698A864523 /* Debug */,
-				A649FEA32C6305728A175896FAFA2970 /* Release */,
+				511A157F60AEB5FD193958A35FEB0583 /* Debug */,
+				27BE396D7DB44E3FB07A07D59711E5C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1451,6 +1594,24 @@
 			buildConfigurations = (
 				28C042D3512E4B49323F49BD6358449E /* Debug */,
 				4A67341D138C791537C8C538537A3DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C147A6AB01383BCAA0E9309AD46038 /* Build configuration list for PBXNativeTarget "AMPopTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F662D9687E825979EF4F593EBBE88A8 /* Debug */,
+				64616AECE075B9B57AA797C16CA2BEF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA0F34FE20AB48AF6C3E2EA71D0C8BD8 /* Build configuration list for PBXNativeTarget "Pods-MPagesPrototypeOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97BCE4ABC9B6E386D91D5D10EBB6822 /* Debug */,
+				6F66A18F9791E9416C362D31712EE316 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,6 +10,7 @@
 #import "FontAwesomeKit.h"
 #import "HudView.h"
 #import "TAOverlay.h"
+#import "AMPopTip.h"
 
 static const CGFloat buttonOffset = 60;
 
@@ -19,7 +20,10 @@ static const CGFloat buttonOffset = 60;
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *refreshButton;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *exitButton;
-
+@property (nonatomic)AMPopTip *fontTip;
+@property (nonatomic)AMPopTip *boldTip;
+@property (nonatomic)AMPopTip *pagesTip;
+@property (nonatomic)AMPopTip *refreshTip;
 @end
 
 @implementation MPInputViewController{
@@ -99,6 +103,8 @@ static const CGFloat buttonOffset = 60;
     }
     if (self.counter >= 6) {
         _pageImage03.hidden = NO;
+        [TAOverlay setOverlayIconColor:[UIColor colorWithRed:56.0f/255.0f green:120.0f/255.0f blue:22.0f/255.0f alpha:1.0]];
+        [TAOverlay setOverlayLabelFont:[UIFont fontWithName:@"Futura-Medium" size:20]];
         [TAOverlay showOverlayWithLabel:@"Well Done" Options:TAOverlayOptionAutoHide  | TAOverlayOptionOverlayTypeSuccess];
 //        [HudView hudInView:self.navigationController.view animated:YES];
         [self performSelector:@selector(closeScreen:) withObject:self afterDelay:2]; //default 1.6
@@ -253,10 +259,49 @@ static const CGFloat buttonOffset = 60;
     _pageImage02.hidden = YES;
     _pageImage03.hidden = YES;
 }
+-(void)showTipButtons{
+    AMPopTip *appeareance = [AMPopTip appearance];
+    appeareance.popoverColor = [UIColor colorWithRed:166.0f/255.0f green:77.0f/255.0f blue:121.0f/255.0f alpha:0.6];
+    appeareance.font = [UIFont fontWithName:@"Futura-CondensedExtraBold" size:12];
+    
+    self.fontTip = [AMPopTip popTip];
+    [self.fontTip showText:@"Change the font here"
+                 direction:AMPopTipDirectionNone
+                  maxWidth:50
+                    inView:self.view
+                 fromFrame:CGRectMake(-70, 150, 200, 200)
+                  duration:5];
+    
+    self.fontTip.actionAnimation = AMPopTipActionAnimationPulse;
+    
+    self.refreshTip = [AMPopTip popTip];
+    [self.refreshTip showText:@"Clear the page here"
+                 direction:AMPopTipDirectionUp
+                  maxWidth:100
+                    inView:self.view
+                 fromFrame:CGRectMake(200, 55, self.view.frame.size.width, self.view.frame.size.height)
+                  duration:5];
+    
+    self.refreshTip.actionAnimation = AMPopTipActionAnimationPulse;
+    
+    
+    self.boldTip = [AMPopTip popTip];
+    [self.boldTip showText:@"Change the bold here"
+                 direction:AMPopTipDirectionNone
+                  maxWidth:50
+                    inView:self.view
+                 fromFrame:CGRectMake(0, 150, 200, 200)
+                  duration:5];
+    
+    self.boldTip.actionAnimation = AMPopTipActionAnimationPulse;
+}
 - (IBAction)refreshButton:(id)sender {
     
-    self.textView.text = @"";
-    [self resetPageIndicator];
+    
+    [self showTipButtons];
+    
+    //self.textView.text = @"";
+    //[self resetPageIndicator];
 }
 
 -(void)setupTextView{

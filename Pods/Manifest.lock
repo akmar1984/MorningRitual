@@ -1,4 +1,5 @@
 PODS:
+  - AMPopTip (0.9.12)
   - BFPaperButton (2.0.18):
     - UIColor+BFPaperColors
   - FontAwesomeKit (2.2.0):
@@ -23,12 +24,14 @@ PODS:
     - pop
 
 DEPENDENCIES:
+  - AMPopTip
   - BFPaperButton
   - FontAwesomeKit
   - TAOverlay
   - VBFPopFlatButton
 
 SPEC CHECKSUMS:
+  AMPopTip: 3c98a9b38148868366b57765064bd9565f653038
   BFPaperButton: 16b3ec9c2964d24f89f623a4113321d3f003ed60
   FontAwesomeKit: 025fd4dd1017fe4e3f8d47b03e024deedbb33cd4
   pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
