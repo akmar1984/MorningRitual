@@ -48,7 +48,6 @@
 		601824971BB041460001ED0F /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		601E7BF01BE0FFF10092EE49 /* Snoler.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Snoler.mov; sourceTree = "<group>"; };
 		602031631BB19D020091AF4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		602F9C971BE25A76003D0F52 /* flower2.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = flower2.m4v; sourceTree = "<group>"; };
 		60E50C0A1BB07B5F00A472FF /* HudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudView.h; sourceTree = "<group>"; };
 		60E50C0B1BB07B5F00A472FF /* HudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudView.m; sourceTree = "<group>"; };
 		60FA64541B6E6DDD00BAC045 /* MainMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuViewController.h; sourceTree = "<group>"; };
@@ -103,7 +102,6 @@
 				600F96461B6966320051B9F9 /* AppDelegate.h */,
 				600F96471B6966320051B9F9 /* AppDelegate.m */,
 				601E7BF01BE0FFF10092EE49 /* Snoler.mov */,
-				602F9C971BE25A76003D0F52 /* flower2.m4v */,
 				602031631BB19D020091AF4E /* Images.xcassets */,
 				600F964C1B6966330051B9F9 /* Main.storyboard */,
 				60FA64541B6E6DDD00BAC045 /* MainMenuViewController.h */,

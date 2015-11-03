@@ -64,24 +64,34 @@ static const CGFloat buttonOffset = 60;
     [super viewWillAppear:animated];
     self.view.backgroundColor = [UIColor whiteColor];
     [self setupTextView];
-    
+   
    
     
 }
 -(IBAction)closeScreen:(id)sender{
-
+    
     [self dismissViewControllerAnimated:YES completion:nil];
     
 }
 -(void)viewDidLoad{
     
     [super viewDidLoad];
-   
-    
+    [self setupBarButtons];
+    if (![[NSUserDefaults standardUserDefaults]boolForKey:@"hasSeenTutorial"]) {
+        
+        [self revealTipButtons];
+        [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"hasSeenTutorial"];
+    }
  
     
 }
-
+-(void)setupBarButtons{
+    FAKFontAwesome *infoIcon =[FAKFontAwesome infoIconWithSize:25];
+    UIBarButtonItem *infoBarButton = [[UIBarButtonItem alloc]initWithImage:[infoIcon imageWithSize:CGSizeMake(44, 44)] style:UIBarButtonItemStylePlain target:self action:@selector(showTipButtons:)];
+    UIBarButtonItem *refreshItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(refreshButton:)];
+    infoBarButton.imageInsets = UIEdgeInsetsMake(5, 0, 0, 0);
+    [self.navigationItem setRightBarButtonItems:@[refreshItem, infoBarButton] animated:YES];
+}
 -(BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString*)text {
   
     if ([text isEqualToString:@" "]) {
@@ -106,7 +116,7 @@ static const CGFloat buttonOffset = 60;
         [TAOverlay setOverlayIconColor:[UIColor colorWithRed:56.0f/255.0f green:120.0f/255.0f blue:22.0f/255.0f alpha:1.0]];
         [TAOverlay setOverlayLabelFont:[UIFont fontWithName:@"Futura-Medium" size:20]];
         [TAOverlay showOverlayWithLabel:@"Well Done" Options:TAOverlayOptionAutoHide  | TAOverlayOptionOverlayTypeSuccess];
-//        [HudView hudInView:self.navigationController.view animated:YES];
+        [self.textView resignFirstResponder];
         [self performSelector:@selector(closeScreen:) withObject:self afterDelay:2]; //default 1.6
     }else{
         _pageImage03.hidden = YES;
@@ -122,7 +132,7 @@ static const CGFloat buttonOffset = 60;
     
    
      
-     FAKFontAwesome *fontIcon = [FAKFontAwesome fontIconWithSize:20];
+    FAKFontAwesome *fontIcon = [FAKFontAwesome fontIconWithSize:20];
     [fontIcon addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithRed:188.0f/255.0f green:77.0f/255.0f blue:77.0f/255.0f alpha:1.0]];
      [buttonFont setBackgroundImage:[fontIcon imageWithSize:CGSizeMake(30,30)] forState:UIControlStateNormal];
     buttonFont.backgroundColor = [UIColor clearColor];
@@ -259,7 +269,7 @@ static const CGFloat buttonOffset = 60;
     _pageImage02.hidden = YES;
     _pageImage03.hidden = YES;
 }
--(void)showTipButtons{
+-(void)revealTipButtons{
     AMPopTip *appeareance = [AMPopTip appearance];
     appeareance.popoverColor = [UIColor colorWithRed:166.0f/255.0f green:77.0f/255.0f blue:121.0f/255.0f alpha:0.6];
     appeareance.font = [UIFont fontWithName:@"Futura-CondensedExtraBold" size:12];
@@ -276,11 +286,11 @@ static const CGFloat buttonOffset = 60;
     
     self.refreshTip = [AMPopTip popTip];
     [self.refreshTip showText:@"Clear the page here"
-                 direction:AMPopTipDirectionUp
-                  maxWidth:100
-                    inView:self.view
-                 fromFrame:CGRectMake(200, 55, self.view.frame.size.width, self.view.frame.size.height)
-                  duration:5];
+                    direction:AMPopTipDirectionUp
+                     maxWidth:100
+                       inView:self.view
+                    fromFrame:CGRectMake(200, 55, self.view.frame.size.width, self.view.frame.size.height)
+                     duration:5];
     
     self.refreshTip.actionAnimation = AMPopTipActionAnimationPulse;
     
@@ -295,13 +305,18 @@ static const CGFloat buttonOffset = 60;
     
     self.boldTip.actionAnimation = AMPopTipActionAnimationPulse;
 }
-- (IBAction)refreshButton:(id)sender {
+-(IBAction)showTipButtons:(id)sender{
+   
+    
+    [self revealTipButtons];
     
     
-    [self showTipButtons];
     
-    //self.textView.text = @"";
-    //[self resetPageIndicator];
+}
+- (IBAction)refreshButton:(UIBarButtonItem *)sender {
+
+    self.textView.text = @"";
+    [self resetPageIndicator];
 }
 
 -(void)setupTextView{
